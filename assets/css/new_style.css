@@ -1,0 +1,198 @@
+@import url("../webfonts/Mantinia_Regular/stylesheet.css");
+@import url("../webfonts/Agmena_Pro_Regular/stylesheet.css");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  min-height: 100%;
+  align-items: center;
+  background-image: url(../img/elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+p {
+  text-align: justify;
+}
+
+p.card-text {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  color: whitesmoke;
+  margin: auto;
+}
+
+hr {
+  color: whitesmoke;
+}
+
+div {
+  color: whitesmoke;
+}
+
+#main {
+  max-width: 100%;
+  margin: auto;
+  padding: 5%;
+
+  box-shadow: 0 0 5px #000000b2;
+  min-height: 100%;
+}
+
+.row {
+  width: available;
+  text-align: justify;
+  align-items: center;
+}
+
+html {
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+[class*="col-"] {
+  position: relative;
+  min-height: 1px;
+  padding: 15px;
+}
+
+#container {
+  min-height: 100%;
+  padding: 10%;
+}
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1200px) {
+  [class*="col-"] {
+    position: relative;
+    min-height: 1px;
+    padding: 3px;
+  }
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+.btn {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.container-fluid .collapse {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.content {
+  min-height: 100%;
+  padding: 25px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 1%;
+}
+
+li {
+  margin-left: 0;
+}
+
+div.card {
+  align-items: center;
+  background: #2b2a25;
+  position: center;
+  z-index: 0;
+  overflow: clip;
+  text-align: center;
+  max-width: 150px;
+}
+
+.item-img {
+  background-image: url(../img/back_item.png);
+  background-size: cover;
+  max-width: 150px;
+  padding: 5px;
+}
+.card-text {
+  font: 400 normal 20px "Agmena Pro Regular";
+}
+
+a {
+  color: #c19d53;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: #c19d53;
+  border-radius: 4px;
+}
+
+button h2::before,
+button h3::before {
+  content: "\f107  ";
+  position: sticky;
+  font-family: "FontAwesome";
+}
+
+button[aria-expanded="true"] h2::before,
+button[aria-expanded="true"] h3::before {
+  content: "\f106  ";
+}
+
+.btn.btn-dark.button-collapse {
+  position: relative;
+  padding-right: 30px;
+}
+
+.btn.btn-dark.button-collapse:hover {
+  background-position: center;
+  background-color: #c19d53;
+}
+
+.main {
+  padding-top: 100px;
+  background: rgba(44, 47, 63, 0.9);
+  max-width: 1200px;
+  padding: 18px 20px;
+  box-shadow: 0 0 5px #000000b2;
+}
+
+@media (min-width: 576px) {
+  .main {
+    padding: 36px 42px;
+  }
+}

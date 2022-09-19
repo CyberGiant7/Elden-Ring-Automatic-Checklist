@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Elden Ring Checklist</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Elden Ring Checklist</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link href="assets/css/new_style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container main">
+      <h1>Elden Ring Automatic Checklist</h1>
+      <hr />
+      <div class="container">
+        <h3>Save manager</h3>
+        <p>
+          Welcome! I'm <a href="https://github.com/CyberGiant7" target="_blank">CyberGiant</a> this site is made to analyze the inventory of an elden
+          ring save to automatically compile a checklist.
+        </p>
+        <p>
+          <strong>To find Elden Ring save:</strong> <br />You will find your Elden Ring save file in the your user directory. Right-click the folder
+          icon on your quick bar and click 'File Explorer'. Then select 'This PC' from the menu on the left of the window and click through the
+          director until you reach this location: <br />
+          <a href="">C:\Users\[username]\AppData\Roaming\EldenRing</a>.
+        </p>
+        <p>
+          Once here, you should see a file with a bunch of random-looking numbers. That number is your 64-bit Steam ID, in case you were wondering.<br />
+          Click into this folder and you should see a file or multiple that end in .sl2. This is your save file.
+        </p>
+        <p>This site <a style="font-weight: bold;">does not alter Elden Ring saves in any way</a>, as the file is opened in read-only mode.</p>
+        <div>
+          <ul>
+            <li>
+              <div>
+                <i class="icofont-rounded-right"></i>
+                <label class="form-label"><strong>Upload Elden Ring save file</strong></label>
+                <input class="form-control" type="file" id="savefile" accept=".sl2" />
+              </div>
+            </li>
+            <li style="display: none" id="slot_select"></li>
+          </ul>
+        </div>
+        
+        <div class="row " id="collapse_button1" style="display: none;">
+          <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#owned">
+            <h2>Owned Items</h2>
+          </button>
+        </div>
+        <div class="collapse" id="owned"></div>
+        <div class="row " id="collapse_button2" style="display: none;">
+          <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#not_owned">
+            <h2>Not Owned Items</h2>
+          </button>
+        </div>
+        <div class="collapse" id="not_owned"></div>
+      </div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/652c1efac6.js" crossorigin="anonymous"></script>
+    <script type="module">
+      import all_items from "./assets/json/all_items.json" assert { type: "json" };
+      import item_dict_template from "./assets/json/item_dict_template.json" assert { type: "json" };
+
+      function loadJson() {
+        localStorage.setItem("all_items", JSON.stringify(all_items));
+        localStorage.setItem("item_dict_template", JSON.stringify(item_dict_template));
+      }
+
+      loadJson();
+    </script>
+  </body>
+</html>
