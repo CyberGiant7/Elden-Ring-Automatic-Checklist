@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>Elden Ring Checklist</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Elden Ring Checklist</title>
+    <meta name="description" content="An Elden Ring automatic checklist">
+    <meta name="author" content="CyberGiant">
+
+    <link rel="icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link href="assets/css/new_style.css" type="text/css" rel="stylesheet" />
   </head>
@@ -21,7 +24,7 @@
 
   <body>
     <div class="container main">
-      <h1>Elden Ring Automatic Checklist</h1>
+      <img src="assets/img/logo.png" alt="logo" style="width: inherit;">
       <hr />
       <div class="container">
         <h3>Save manager</h3>
@@ -68,6 +71,7 @@
       </div>
     </div>
 
+
     <!-- Vendor JS Files -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/jquery.min.js"></script>
@@ -81,8 +85,10 @@
         localStorage.setItem("all_items", JSON.stringify(all_items));
         localStorage.setItem("item_dict_template", JSON.stringify(item_dict_template));
       }
-
       loadJson();
+      let bg_filenames = ["bg0.jpg", "bg1.jpg", "bg2.png","bg3.jpg", "bg4.jpg", "bg5.png"];
+      let r = Math.floor(Math.random() * 6);
+      document.getElementsByTagName("body")[0].style.backgroundImage = "url(assets/img/" + bg_filenames[r];
     </script>
   </body>
 </html>

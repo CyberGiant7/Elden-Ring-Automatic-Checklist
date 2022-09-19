@@ -23,14 +23,13 @@ fileSelector.addEventListener("change", (event) => {
 
   let reader = new FileReader();
   reader.onload = function (e) {
-    // binary data
     file_read = e.target.result;
-    // if (!buffer_equal(file_read["slice"](0, 4), new Int8Array([66, 78, 68, 52]))) {
-    //   e.target.result = null;
-    //   document.getElementById("slot_select").style.display = "none";
-    //   alert("Insert a valid file");
-    //   return;
-    // }
+    if (!buffer_equal(file_read["slice"](0, 4), new Int8Array([66, 78, 68, 52]))) {
+      e.target.result = null;
+      document.getElementById("slot_select").style.display = "none";
+      alert("Insert a valid file");
+      return;
+    }
     updateSlotDropdown(getNames(file_read));
     $("#slot_selector").on("change", function (e) {
       let options = $("#slot_selector option:selected");

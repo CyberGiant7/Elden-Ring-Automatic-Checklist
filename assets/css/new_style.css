@@ -6,7 +6,7 @@ body {
   width: 100%;
   min-height: 100%;
   align-items: center;
-  background-image: url(../img/elden-ring-pc-games-playstation-4-playstation-5-xbox-one-3840x5120-7712.jpg);
+  background-color: black;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -41,13 +41,12 @@ div {
   color: whitesmoke;
 }
 
-#main {
-  max-width: 100%;
-  margin: auto;
-  padding: 5%;
-
-  box-shadow: 0 0 5px #000000b2;
-  min-height: 100%;
+h4{
+  text-align: center;
+  margin-top: 10pt;
+  background-color: #212529;
+  border-radius: 3px;
+  padding: 3px;
 }
 
 .row {
@@ -67,44 +66,12 @@ html {
   padding: 15px;
 }
 
-#container {
-  min-height: 100%;
-  padding: 10%;
-}
-
 .row-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
-@media (max-width: 1200px) {
-  [class*="col-"] {
-    position: relative;
-    min-height: 1px;
-    padding: 3px;
-  }
-
-  .container,
-  .container-fluid,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .row-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-}
 .btn {
   margin-top: 2px;
   margin-bottom: 2px;
@@ -120,8 +87,7 @@ html {
   padding: 25px;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-align: center;
   padding: 1%;
 }
@@ -189,6 +155,30 @@ button[aria-expanded="true"] h3::before {
   max-width: 1200px;
   padding: 18px 20px;
   box-shadow: 0 0 5px #000000b2;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 1200px) {
+  [class*="col-"] {
+    position: relative;
+    min-height: 1px;
+    padding: 3px;
+  }
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
 
 @media (min-width: 576px) {
@@ -196,3 +186,5 @@ button[aria-expanded="true"] h3::before {
     padding: 36px 42px;
   }
 }
+
+
