@@ -57,7 +57,7 @@ fileSelector.addEventListener("change", (event) => {
           data-bs-target="#owned-armor"
           onclick="getCategorySection('armor', 'owned')"
         >
-        <h3>Armors</h3>
+        <h3>Armor</h3>
         </button>
         <div class="container-fluid collapse" id="owned-armor"></div>
   
@@ -68,7 +68,7 @@ fileSelector.addEventListener("change", (event) => {
           data-bs-target="#owned-talisman"
           onclick="getCategorySection('talisman', 'owned')"
         >
-        <h3>Talisman</h3>
+        <h3>Talismans</h3>
         </button>
         <div class="container-fluid collapse" id="owned-talisman"></div>
         <button
@@ -78,7 +78,7 @@ fileSelector.addEventListener("change", (event) => {
           data-bs-target="#owned-magic"
           onclick="getCategorySection('magic', 'owned')"
         >
-        <h3>Magic</h3>
+        <h3>Spells</h3>
         </button>
         <div class="container-fluid collapse" id="owned-magic"></div>
   
@@ -124,7 +124,7 @@ fileSelector.addEventListener("change", (event) => {
           data-bs-target="#not-owned-armor"
           onclick="getCategorySection('armor', 'not_owned')"
         >
-        <h3>Armors</h3>
+        <h3>Armor</h3>
         </button>
         <div class="container-fluid collapse" id="not-owned-armor"></div>
   
@@ -135,7 +135,7 @@ fileSelector.addEventListener("change", (event) => {
           data-bs-target="#not-owned-talisman"
           onclick="getCategorySection('talisman', 'not_owned')"
         >
-        <h3>Talisman</h3>
+        <h3>Talismans</h3>
         </button>
         <div class="container-fluid collapse" id="not-owned-talisman"></div>
         <button
@@ -145,7 +145,7 @@ fileSelector.addEventListener("change", (event) => {
           data-bs-target="#not-owned-magic"
           onclick="getCategorySection('magic', 'not_owned')"
         >
-        <h3>Magic</h3>
+        <h3>Spells</h3>
         </button>
         <div class="container-fluid collapse" id="not-owned-magic"></div>
   

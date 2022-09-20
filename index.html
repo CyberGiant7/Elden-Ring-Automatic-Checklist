@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>Elden Ring Checklist</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="An Elden Ring automatic checklist">
-    <meta name="author" content="CyberGiant">
+    <meta name="description" content="An Elden Ring automatic checklist" />
+    <meta name="author" content="CyberGiant" />
 
-    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link href="assets/css/new_style.css" type="text/css" rel="stylesheet" />
   </head>
-    <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VP65ZL3DNK"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    gtag('config', 'G-VP65ZL3DNK');
+    gtag("config", "G-VP65ZL3DNK");
   </script>
 
   <body>
     <div class="container main">
-      <img src="assets/img/logo.png" alt="logo" style="width: inherit;">
+      <img src="assets/img/logo.png" alt="logo" style="width: inherit" />
       <hr />
       <div class="container">
         <h3>Save manager</h3>
@@ -42,7 +44,7 @@
           Once here, you should see a file with a bunch of random-looking numbers. That number is your 64-bit Steam ID, in case you were wondering.<br />
           Click into this folder and you should see a file or multiple that end in .sl2. This is your save file.
         </p>
-        <p>This site <a style="font-weight: bold;">does not alter Elden Ring saves in any way</a>, as the file is opened in read-only mode.</p>
+        <p>This site <a style="font-weight: bold">does not alter Elden Ring saves in any way</a>, as the file is opened in read-only mode.</p>
         <div>
           <ul>
             <li>
@@ -55,14 +57,14 @@
             <li style="display: none" id="slot_select"></li>
           </ul>
         </div>
-        
-        <div class="row " id="collapse_button1" style="display: none;">
+
+        <div class="row" id="collapse_button1" style="display: none">
           <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#owned">
             <h2>Owned Items</h2>
           </button>
         </div>
         <div class="collapse" id="owned"></div>
-        <div class="row " id="collapse_button2" style="display: none;">
+        <div class="row" id="collapse_button2" style="display: none">
           <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#not_owned">
             <h2>Not Owned Items</h2>
           </button>
@@ -70,8 +72,7 @@
         <div class="collapse" id="not_owned"></div>
       </div>
     </div>
-
-
+    
     <!-- Vendor JS Files -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/jquery.min.js"></script>
@@ -86,7 +87,7 @@
         localStorage.setItem("item_dict_template", JSON.stringify(item_dict_template));
       }
       loadJson();
-      let bg_filenames = ["bg0.jpg", "bg1.jpg", "bg2.png","bg3.jpg", "bg4.jpg", "bg5.png"];
+      let bg_filenames = ["bg0.jpg", "bg1.jpg", "bg2.png", "bg3.jpg", "bg4.jpg", "bg5.png"];
       let r = Math.floor(Math.random() * 6);
       document.getElementsByTagName("body")[0].style.backgroundImage = "url(assets/img/" + bg_filenames[r];
     </script>
