@@ -16,6 +16,7 @@ This tool is made for **100% completion players**.
 
 Elden Ring Automatic Checklist is an online tool created for the purpose of being able to know your missing items in Elden Ring.
 Online there are already a plenty of checklists that can be filled out manually, but there are none that do it automatically, so I got the idea to create one.
+If you like the project leave a star on Github repository.:heart:
 
 
 ### How it works
@@ -42,14 +43,15 @@ With this tool you can:
 
 ## Support
 I planned to add some features:
-- Make a section in which armors are divided according to their armor set
+- Make a section in which armors are divided according to their [armor set](https://eldenring.wiki.fextralife.com/Armor)
 - Add option to show missing [key items](https://eldenring.wiki.fextralife.com/Items)
 - Add option to show missing [bosses](https://eldenring.wiki.fextralife.com/Bosses)
 
 If you would like to support me this is the button :heart:
+
 [<img src="https://raw.githubusercontent.com/aha999/DonateButtons/master/Paypal.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" height="100" />](https://www.paypal.com/donate/?hosted_button_id=KXL9LBPK466G6)
 
-if you would like to help me add features or suggest other features to add please feel free to contact me
+If you would like to help me add features or suggest other features to add please feel free to contact me
 
 
 ## Thanks
