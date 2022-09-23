@@ -133,6 +133,10 @@ button h3::before {
   position: sticky;
   font-family: "FontAwesome";
 }
+button h3::after {
+  text-align: right;
+  float: right;
+}
 
 button[aria-expanded="true"] h2::before,
 button[aria-expanded="true"] h3::before {

@@ -10,7 +10,7 @@ let pattern = new Uint8Array([
 
 let file_read = null;
 let inventory = null;
-let result = { worked: false, owned: null, not_owned: null };
+let result = { worked: false, owned: null, "not-owned": null, counter: null };
 
 fileSelector.addEventListener("change", (event) => {
   // no file selected to read
@@ -35,144 +35,14 @@ fileSelector.addEventListener("change", (event) => {
       let options = $("#slot_selector option:selected");
       let selected_slot = options[0].value;
       result = getOwnedAndNot(file_read, selected_slot);
-      console.log(result["owned"]);
       if (result["worked"]) {
-        document.getElementById("owned").innerHTML = `
-        <div class="container" style="display:flex; flex-direction: column;">
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#owned-armament"
-          onclick="getCategorySection('armament', 'owned')"
-        >
-        <h3>Weapons</h3>
-        </button>
-        <div class="container-fluid collapse" id="owned-armament"></div>
-  
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#owned-armor"
-          onclick="getCategorySection('armor', 'owned')"
-        >
-        <h3>Armor</h3>
-        </button>
-        <div class="container-fluid collapse" id="owned-armor"></div>
-  
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#owned-talisman"
-          onclick="getCategorySection('talisman', 'owned')"
-        >
-        <h3>Talismans</h3>
-        </button>
-        <div class="container-fluid collapse" id="owned-talisman"></div>
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#owned-magic"
-          onclick="getCategorySection('magic', 'owned')"
-        >
-        <h3>Spells</h3>
-        </button>
-        <div class="container-fluid collapse" id="owned-magic"></div>
-  
-        <button
-        class="btn btn-dark row button-collapse"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#owned-ashesOfWar"
-        onclick="getCategorySection('ashesOfWar', 'owned')"
-      >
-        <h3>Ashes of War</h3>
-        </button>
-        <div class="container-fluid collapse" id="owned-ashesOfWar"></div>
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#owned-spiritAshes"
-          onclick="getCategorySection('spiritAshes', 'owned')"
-        >
-        <h3>Spirit Ashes</h3>
-        </button>
-        <div class="container-fluid collapse" id="owned-spiritAshes"></div>
-        </div>
-      `;
-        document.getElementById("not_owned").innerHTML = `
-        <div class="container" style="display:flex; flex-direction: column;">
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#not-owned-armament"
-          onclick="getCategorySection('armament', 'not_owned')"
-        >
-        <h3>Weapons</h3>
-        </button>
-        <div class="container-fluid collapse" id="not-owned-armament"></div>
-  
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#not-owned-armor"
-          onclick="getCategorySection('armor', 'not_owned')"
-        >
-        <h3>Armor</h3>
-        </button>
-        <div class="container-fluid collapse" id="not-owned-armor"></div>
-  
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#not-owned-talisman"
-          onclick="getCategorySection('talisman', 'not_owned')"
-        >
-        <h3>Talismans</h3>
-        </button>
-        <div class="container-fluid collapse" id="not-owned-talisman"></div>
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#not-owned-magic"
-          onclick="getCategorySection('magic', 'not_owned')"
-        >
-        <h3>Spells</h3>
-        </button>
-        <div class="container-fluid collapse" id="not-owned-magic"></div>
-  
-        <button
-        class="btn btn-dark row button-collapse"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#not-owned-ashesOfWar"
-        onclick="getCategorySection('ashesOfWar', 'not_owned')"
-      >
-        <h3>Ashes of War</h3>
-        </button>
-        <div class="container-fluid collapse" id="not-owned-ashesOfWar"></div>
-        <button
-          class="btn btn-dark row button-collapse"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#not-owned-spiritAshes"
-          onclick="getCategorySection('spiritAshes', 'not_owned')"
-        >
-        <h3>Spirit Ashes</h3>
-        </button>
-        <div class="container-fluid collapse" id="not-owned-spiritAshes"></div>
-        </div>
-      `;
-        document.getElementById("collapse_button1").style.display = "block";
-        document.getElementById("collapse_button2").style.display = "block";
+        $("#owned").load("page_parts.html #owned_section", () => {
+          $("#not-owned").load("page_parts.html #not-owned-section", () => {
+            document.getElementById("collapse_button1").style.display = "block";
+            document.getElementById("collapse_button2").style.display = "block";
+            addFraction();
+          });
+        });
       }
     });
   };
@@ -258,41 +128,76 @@ function getOwnedAndNot(file_read, selected_slot) {
     let owned_items = JSON.parse(localStorage.getItem("item_dict_template"));
     let not_owned_items = JSON.parse(localStorage.getItem("item_dict_template"));
     let all_items = JSON.parse(localStorage.getItem("all_items"));
+    let item_counter = JSON.parse(localStorage.getItem("item_counter"));
 
     id_list.forEach((id) => {
       if (id in all_items["armament"]) {
-        owned_items["armament"][all_items["armament"][id].class].push(all_items["armament"][id]["name"]);
+        owned_items["armament"][all_items["armament"][id]["class"]].push(all_items["armament"][id]["name"]);
+        item_counter["armament"][all_items["armament"][id]["class"]]["owned"]++;
+        item_counter["armament"][all_items["armament"][id]["class"]]["total"]++;
+        item_counter["armament"]["summary"]["owned"]++;
+        item_counter["armament"]["summary"]["total"]++;
         delete all_items["armament"][id];
       } else if (id in all_items["armor"]) {
         owned_items["armor"][all_items["armor"][id]["category"]].push(all_items["armor"][id]["name"]);
+        item_counter["armor"][all_items["armor"][id]["category"]]["owned"]++;
+        item_counter["armor"][all_items["armor"][id]["category"]]["total"]++;
+        item_counter["armor"]["summary"]["owned"]++;
+        item_counter["armor"]["summary"]["total"]++;
         delete all_items["armor"][id];
       } else if (id in all_items["ashesOfWar"]) {
         owned_items["ashesOfWar"][all_items["ashesOfWar"][id]["category"]].push(all_items["ashesOfWar"][id]["name"]);
+        item_counter["ashesOfWar"][all_items["ashesOfWar"][id]["category"]]["owned"]++;
+        item_counter["ashesOfWar"][all_items["ashesOfWar"][id]["category"]]["total"]++;
+        item_counter["ashesOfWar"]["summary"]["owned"]++;
+        item_counter["ashesOfWar"]["summary"]["total"]++;
         delete all_items["ashesOfWar"][id];
       } else if (id in all_items["magic"]) {
         owned_items["magic"][all_items["magic"][id]["category"]].push(all_items["magic"][id]["name"]);
+        item_counter["magic"][all_items["magic"][id]["category"]]["owned"]++;
+        item_counter["magic"][all_items["magic"][id]["category"]]["total"]++;
+        item_counter["magic"]["summary"]["owned"]++;
+        item_counter["magic"]["summary"]["total"]++;
         delete all_items["magic"][id];
       } else if (id in all_items["spiritAshes"]) {
         owned_items["spiritAshes"].push(all_items["spiritAshes"][id]["name"]);
+        item_counter["spiritAshes"]["summary"]["owned"]++;
+        item_counter["spiritAshes"]["summary"]["total"]++;
         delete all_items["spiritAshes"][id];
       } else if (id in all_items["talisman"]) {
         owned_items["talisman"].push(all_items["talisman"][id]["name"]);
+        item_counter["talisman"]["summary"]["owned"]++;
+        item_counter["talisman"]["summary"]["total"]++;
         delete all_items["talisman"][id];
       }
     });
 
     for (let item_type in all_items) {
       for (let id in all_items[item_type]) {
-        if (item_type === "armament") not_owned_items["armament"][all_items["armament"][id]["class"]].push(all_items["armament"][id]["name"]);
-        else if (item_type === "armor" || item_type === "ashesOfWar" || item_type === "magic")
+        if (item_type === "armament") {
+          not_owned_items["armament"][all_items["armament"][id]["class"]].push(all_items["armament"][id]["name"]);
+          item_counter[item_type][all_items[item_type][id]["class"]]["not-owned"]++;
+          item_counter[item_type][all_items[item_type][id]["class"]]["total"]++;
+          item_counter[item_type]["summary"]["not-owned"]++;
+          item_counter[item_type]["summary"]["total"]++;
+        } else if (item_type === "armor" || item_type === "ashesOfWar" || item_type === "magic") {
           not_owned_items[item_type][all_items[item_type][id]["category"]].push(all_items[item_type][id]["name"]);
-        else if (item_type === "spiritAshes" || item_type === "talisman") not_owned_items[item_type].push(all_items[item_type][id]["name"]);
+          item_counter[item_type][all_items[item_type][id]["category"]]["not-owned"]++;
+          item_counter[item_type][all_items[item_type][id]["category"]]["total"]++;
+          item_counter[item_type]["summary"]["not-owned"]++;
+          item_counter[item_type]["summary"]["total"]++;
+        } else if (item_type === "spiritAshes" || item_type === "talisman") {
+          not_owned_items[item_type].push(all_items[item_type][id]["name"]);
+          item_counter[item_type]["summary"]["not-owned"]++;
+          item_counter[item_type]["summary"]["total"]++;
+        }
       }
     }
-    return { worked: true, owned: owned_items, not_owned: not_owned_items };
+    return { worked: true, owned: owned_items, "not-owned": not_owned_items, counter: item_counter };
   } catch (err) {
+    console.log(err);
     console.log("insert a valid file");
-    return { worked: false, owned: null, not_owned: null };
+    return { worked: false, owned: null, "not-owned": null, counter: null };
   }
 }
 
@@ -348,14 +253,14 @@ function getCategorySection(category, owned) {
   let category_container;
   if (owned === "owned") {
     category_container = document.getElementById(`owned-${category}`);
-  } else if (owned === "not_owned") {
+  } else if (owned === "not-owned") {
     category_container = document.getElementById(`not-owned-${category}`);
   }
   if (category_container.innerHTML === "") {
     let i = 0;
     if (!Array.isArray(result[owned][category])) {
       for (let type in result[owned][category]) {
-        category_container.innerHTML += `<h4>${type}</h4>`;
+        category_container.innerHTML += `<h4>${type}<span style="float: right">${item_counter[category][type][owned]}/${item_counter[category][type]["total"]}</span></h4>`;
         category_container.innerHTML += `<div class="row-flex">`;
         let category_row = category_container.getElementsByClassName(`row-flex`)[i];
         for (let i in result[owned][category][type]) {
@@ -363,39 +268,21 @@ function getCategorySection(category, owned) {
         }
         i++;
       }
-    } else{
+    } else {
       category_container.innerHTML += `<div class="row-flex">`;
       let category_row = category_container.getElementsByClassName(`row-flex`)[0];
-      for (let i in result[owned][category]){
-        category_row.innerHTML += getCard(result[owned][category][i],  category)
+      for (let i in result[owned][category]) {
+        category_row.innerHTML += getCard(result[owned][category][i], category);
       }
     }
   }
 }
 
-
-//Get the button
-let mybutton = document.getElementById("btn-back-to-top");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-  ) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-// When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
-
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+function addFraction() {
+  item_counter = result["counter"];
+  ["owned", "not-owned"].forEach((owned) => {
+    for (let item_type in item_counter) {
+      $(`#${owned}-${item_type}`).prev().find("h3").append(`<span style="float: right">${item_counter[item_type]["summary"][owned]}/${item_counter[item_type]["summary"]["total"]}</span>`);
+    }
+  });
 }

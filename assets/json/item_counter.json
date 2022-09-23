@@ -1,0 +1,309 @@
+{
+  "armament": {
+    "Dagger": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Straight Sword": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Greatsword": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Colossal Sword": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Thrusting Sword": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Heavy Thrusting Sword": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Curved Sword": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Curved Greatsword": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Katana": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Twinblade": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Axe": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Greataxe": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Hammer": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Flail": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Great Hammer": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Colossal Weapon": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Spear": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Great Spear": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Halberd": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Reaper": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Whip": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Fist": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Claw": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Light Bow": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Bow": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Greatbow": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Crossbow": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Ballista": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Glintstone Staff": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Sacred Seal": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Torch": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Small Shield": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Medium Shield": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Greatshield": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "armor": {
+    "Head": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Body": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Arms": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Legs": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "ashesOfWar": {
+    "Heavy": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Keen": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Quality": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Magic": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Fire": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Flame Art": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Lightning": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Sacred": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Poison": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Blood": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Cold": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Occult": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Standard": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "magic": {
+    "Sorcery": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "Incantation": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    },
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "spiritAshes": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "talisman": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  }
+}

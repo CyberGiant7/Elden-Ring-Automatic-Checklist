@@ -65,11 +65,11 @@
         </div>
         <div class="collapse" id="owned"></div>
         <div class="row" id="collapse_button2" style="display: none">
-          <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#not_owned">
+          <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#not-owned">
             <h2>Not Owned Items</h2>
           </button>
         </div>
-        <div class="collapse" id="not_owned"></div>
+        <div class="collapse" id="not-owned"></div>
       </div>
       <hr style="margin-top: 100px" />
       <footer class="text-center">
@@ -111,16 +111,19 @@
 
     <!-- Vendor JS Files -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/button_to_top.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/652c1efac6.js" crossorigin="anonymous"></script>
     <script type="module">
       import all_items from "./assets/json/all_items.json" assert { type: "json" };
       import item_dict_template from "./assets/json/item_dict_template.json" assert { type: "json" };
+      import item_counter from "./assets/json/item_counter.json" assert { type: "json" };
 
       function loadJson() {
         localStorage.setItem("all_items", JSON.stringify(all_items));
         localStorage.setItem("item_dict_template", JSON.stringify(item_dict_template));
+        localStorage.setItem("item_counter", JSON.stringify(item_counter));
       }
       loadJson();
       let bg_filenames = ["bg0.jpg", "bg1.jpg", "bg2.png", "bg3.jpg", "bg4.jpg", "bg5.png"];
