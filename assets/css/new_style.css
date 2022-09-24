@@ -106,7 +106,7 @@ div.card {
   max-width: 150px;
 }
 
-.item-img {
+img.lazy.item-img {
   background-image: url(../img/back_item.png);
   background-size: cover;
   max-width: 150px;

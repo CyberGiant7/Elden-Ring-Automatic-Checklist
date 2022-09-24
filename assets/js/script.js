@@ -240,8 +240,9 @@ function updateSlotDropdown(slot_name_list) {
 function getCard(item_name, category_name) {
   return `<div class=".col-6 .col-sm-4 .col-md-3 .col-lg-2 col-xl-2">
 <div class="card" title="${item_name}" > 
-<img alt="${item_name} img" class="item-img card-img"
-					 src="./assets/img/${category_name}/${item_name.replace(/[\:]+/g, "")}.png"
+<img alt="${item_name} img" class="lazy item-img card-img"
+           src="https://acegif.com/wp-content/uploads/loading-25.gif"
+					 data-src="./assets/img/${category_name}/${item_name.replace(/[\:]+/g, "")}.png"
 					 title="${item_name}">
 <br>
 <p class="card-text">${item_name}</p>
@@ -276,6 +277,17 @@ function getCategorySection(category, owned) {
       }
     }
   }
+  $(function () {
+    $("img.lazy").Lazy({
+      // your configuration goes here
+      scrollDirection: "vertical",
+      effect: "fadeIn",
+      visibleOnly: true,
+      onError: function (element) {
+        console.log("error loading " + element.data("src"));
+      },
+    });
+  });
 }
 
 function addFraction() {
