@@ -1,0 +1,306 @@
+{
+    "100C5FF8": {
+      "name": "Commoner's Headband (Altered)",
+      "category": "Head"
+    },
+    "100C38E8": {
+      "name": "Festive Hood (Altered)",
+      "category": "Head"
+    },
+    "1001D8A8": {
+      "name": "Alberich's Pointed Hat (Altered)",
+      "category": "Head"
+    },
+    "100D7168": {
+      "name": "Confessor Hood (Altered)",
+      "category": "Head"
+    },
+    "100470B8": {
+      "name": "Nox Monk Hood (Altered)",
+      "category": "Head"
+    },
+    "10047C70": {
+      "name": "Nox Swordstress Crown (Altered)",
+      "category": "Head"
+    },
+    "100E5BC8": {
+      "name": "Eccentric's Hood (Altered)",
+      "category": "Head"
+    },
+    "10053408": {
+      "name": "Cleanrot Helm (Altered)",
+      "category": "Head"
+    },
+    "1000EE48": {
+      "name": "Drake Knight Helm (Altered)",
+      "category": "Head"
+    },
+    "10031128": {
+      "name": "Banished Knight Helm (Altered)",
+      "category": "Head"
+    },
+    "10038658": {
+      "name": "Night's Cavalry Helm (Altered)",
+      "category": "Head"
+    },
+    "100C6444": {
+      "name": "Commoner's Simple Garb (Altered)",
+      "category": "Body"
+    },
+    "100C605C": {
+      "name": "Commoner's Garb (Altered)",
+      "category": "Body"
+    },
+    "1005A99C": {
+      "name": "Aristocrat Garb (Altered)",
+      "category": "Body"
+    },
+    "10035FAC": {
+      "name": "Page Garb (Altered)",
+      "category": "Body"
+    },
+    "101E61BC": {
+      "name": "High Page Clothes (Altered)",
+      "category": "Body"
+    },
+    "100C394C": {
+      "name": "Festive Garb (Altered)",
+      "category": "Body"
+    },
+    "1009A13C": {
+      "name": "Astrologer Robe (Altered)",
+      "category": "Body"
+    },
+    "100F1F7C": {
+      "name": "Errant Sorcerer Robe (Altered)",
+      "category": "Body"
+    },
+    "1002001C": {
+      "name": "Spellblade's Traveling Attire (Altered)",
+      "category": "Body"
+    },
+    "1001D90C": {
+      "name": "Alberich's Robe (Altered)",
+      "category": "Body"
+    },
+    "100DE6FC": {
+      "name": "Preceptor's Long Gown (Altered)",
+      "category": "Body"
+    },
+    "100F6D9C": {
+      "name": "Snow Witch Robe (Altered)",
+      "category": "Body"
+    },
+    "101D9E6C": {
+      "name": "Fia's Robe (Altered)",
+      "category": "Body"
+    },
+    "10097A2C": {
+      "name": "Prophet Robe (Altered)",
+      "category": "Body"
+    },
+    "100DBFEC": {
+      "name": "Traveling Maiden Robe (Altered)",
+      "category": "Body"
+    },
+    "100DC7BC": {
+      "name": "Finger Maiden Robe (Altered)",
+      "category": "Body"
+    },
+    "100163DC": {
+      "name": "Perfumer Robe (Altered)",
+      "category": "Body"
+    },
+    "10018AEC": {
+      "name": "Perfumer's Traveling Garb (Altered)",
+      "category": "Body"
+    },
+    "100841AC": {
+      "name": "Depraved Perfumer Robe (Altered)",
+      "category": "Body"
+    },
+    "1007574C": {
+      "name": "Lord of Blood's Robe (Altered)",
+      "category": "Body"
+    },
+    "100A648C": {
+      "name": "War Surgeon Gown (Altered)",
+      "category": "Body"
+    },
+    "1003D4DC": {
+      "name": "Nomadic Merchant's Finery (Altered)",
+      "category": "Body"
+    },
+    "100D71CC": {
+      "name": "Confessor Armor (Altered)",
+      "category": "Body"
+    },
+    "1004BF3C": {
+      "name": "Gravekeeper Cloak (Altered)",
+      "category": "Body"
+    },
+    "101E88CC": {
+      "name": "Rotten Gravekeeper Cloak (Altered)",
+      "category": "Body"
+    },
+    "1004711C": {
+      "name": "Nox Monk Armor (Altered)",
+      "category": "Body"
+    },
+    "10047CD4": {
+      "name": "Nox Swordstress Armor (Altered)",
+      "category": "Body"
+    },
+    "100D4ABC": {
+      "name": "Land of Reeds Armor (Altered)",
+      "category": "Body"
+    },
+    "10024E3C": {
+      "name": "Ronin's Armor (Altered)",
+      "category": "Body"
+    },
+    "1003ADCC": {
+      "name": "Blue Silver Mail Armor (Altered)",
+      "category": "Body"
+    },
+    "1002C36C": {
+      "name": "Black Knife Armor (Altered)",
+      "category": "Body"
+    },
+    "100BC41C": {
+      "name": "Malenia's Armor (Altered)",
+      "category": "Body"
+    },
+    "1007092C": {
+      "name": "Elden Lord Armor (Altered)",
+      "category": "Body"
+    },
+    "100A166C": {
+      "name": "Vagabond Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "100EF86C": {
+      "name": "Carian Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "101B065C": {
+      "name": "Godrick Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "101B2D6C": {
+      "name": "Cuckoo Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "101B7B8C": {
+      "name": "Redmane Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "101ADF4C": {
+      "name": "Gelmir Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "101B547C": {
+      "name": "Leyndell Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "101BC9AC": {
+      "name": "Haligtree Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "101BA29C": {
+      "name": "Mausoleum Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "100C123C": {
+      "name": "Bloodhound Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "1005346C": {
+      "name": "Cleanrot Armor (Altered)",
+      "category": "Body"
+    },
+    "100D23AC": {
+      "name": "Raging Wolf Armor (Altered)",
+      "category": "Body"
+    },
+    "1009F344": {
+      "name": "Hoslow's Armor (Altered)",
+      "category": "Body"
+    },
+    "10092C0C": {
+      "name": "Twinned Armor (Altered)",
+      "category": "Body"
+    },
+    "1000EEAC": {
+      "name": "Drake Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "10029C5C": {
+      "name": "Blaidd's Armor (Altered)",
+      "category": "Body"
+    },
+    "1003389C": {
+      "name": "Briar Armor (Altered)",
+      "category": "Body"
+    },
+    "100E833C": {
+      "name": "Fingerprint Armor (Altered)",
+      "category": "Body"
+    },
+    "100904FC": {
+      "name": "All-Knowing Armor (Altered)",
+      "category": "Body"
+    },
+    "10044A0C": {
+      "name": "Royal Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "100B9D0C": {
+      "name": "Maliketh's Armor (Altered)",
+      "category": "Body"
+    },
+    "1003118C": {
+      "name": "Banished Knight Armor (Altered)",
+      "category": "Body"
+    },
+    "100386BC": {
+      "name": "Night's Cavalry Armor (Altered)",
+      "category": "Body"
+    },
+    "100BEB2C": {
+      "name": "Veteran's Armor (Altered)",
+      "category": "Body"
+    },
+    "10013CCC": {
+      "name": "Scaled Armor (Altered)",
+      "category": "Body"
+    },
+    "100B00CC": {
+      "name": "Beast Champion Armor (Altered)",
+      "category": "Body"
+    },
+    "100422FC": {
+      "name": "Tree Sentinel Armor (Altered)",
+      "category": "Body"
+    },
+    "1008BAC4": {
+      "name": "Crucible Axe Armor (Altered)",
+      "category": "Body"
+    },
+    "1008BEAC": {
+      "name": "Crucible Tree Armor (Altered)",
+      "category": "Body"
+    },
+    "1007303C": {
+      "name": "Radahn's Lion Armor (Altered)",
+      "category": "Body"
+    },
+    "1009C84C": {
+      "name": "Lionel's Armor (Altered)",
+      "category": "Body"
+    },
+    "1005828C": {
+      "name": "Fire Prelate Armor (Altered)",
+      "category": "Body"
+    }
+  }

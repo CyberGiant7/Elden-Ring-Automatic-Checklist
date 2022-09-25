@@ -1510,1784 +1510,236 @@
     }
   },
   "armor": {
-    "10009C40": {
-      "name": "Iron Helmet",
+    "100C5C10": {
+      "name": "Commoner's Headband",
       "category": "Head"
-    },
-    "10009CA4": {
-      "name": "Scale Armor",
-      "category": "Body"
-    },
-    "10009D08": {
-      "name": "Iron Gauntlets",
-      "category": "Arms"
-    },
-    "10009D6C": {
-      "name": "Leather Trousers",
-      "category": "Legs"
-    },
-    "1000C350": {
-      "name": "Kaiden Helm",
-      "category": "Head"
-    },
-    "1000C3B4": {
-      "name": "Kaiden Armor",
-      "category": "Body"
-    },
-    "1000C418": {
-      "name": "Kaiden Gauntlets",
-      "category": "Arms"
-    },
-    "1000C47C": {
-      "name": "Kaiden Trousers",
-      "category": "Legs"
-    },
-    "1000EA60": {
-      "name": "Drake Knight Helm",
-      "category": "Head"
-    },
-    "1000EAC4": {
-      "name": "Drake Knight Armor",
-      "category": "Body"
-    },
-    "1000EB28": {
-      "name": "Drake Knight Gauntlets",
-      "category": "Arms"
-    },
-    "1000EB8C": {
-      "name": "Drake Knight Greaves",
-      "category": "Legs"
-    },
-    "1000EE48": {
-      "name": "Drake Knight Helm (Altered)",
-      "category": "Head"
-    },
-    "1000EEAC": {
-      "name": "Drake Knight Armor (Altered)",
-      "category": "Body"
-    },
-    "10013880": {
-      "name": "Scaled Helm",
-      "category": "Head"
-    },
-    "100138E4": {
-      "name": "Scaled Armor",
-      "category": "Body"
-    },
-    "10013948": {
-      "name": "Scaled Gauntlets",
-      "category": "Arms"
-    },
-    "100139AC": {
-      "name": "Scaled Greaves",
-      "category": "Legs"
-    },
-    "10013CCC": {
-      "name": "Scaled Armor (Altered)",
-      "category": "Body"
-    },
-    "10015F90": {
-      "name": "Perfumer Hood",
-      "category": "Head"
-    },
-    "10015FF4": {
-      "name": "Perfumer Robe",
-      "category": "Body"
-    },
-    "10016058": {
-      "name": "Perfumer Gloves",
-      "category": "Arms"
-    },
-    "100160BC": {
-      "name": "Perfumer Sarong",
-      "category": "Legs"
-    },
-    "100163DC": {
-      "name": "Perfumer Robe (Altered)",
-      "category": "Body"
-    },
-    "100186A0": {
-      "name": "Traveler's Hat",
-      "category": "Head"
-    },
-    "10018704": {
-      "name": "Perfumer's Traveling Garb",
-      "category": "Body"
-    },
-    "10018768": {
-      "name": "Traveler's Gloves",
-      "category": "Arms"
-    },
-    "100187CC": {
-      "name": "Traveler's Slops",
-      "category": "Legs"
-    },
-    "10018AEC": {
-      "name": "Perfumer's Traveling Garb (Altered)",
-      "category": "Body"
-    },
-    "1001D4C0": {
-      "name": "Alberich's Pointed Hat",
-      "category": "Head"
-    },
-    "1001D524": {
-      "name": "Alberich's Robe",
-      "category": "Body"
-    },
-    "1001D588": {
-      "name": "Alberich's Bracers",
-      "category": "Arms"
-    },
-    "1001D5EC": {
-      "name": "Alberich's Trousers",
-      "category": "Legs"
-    },
-    "1001D8A8": {
-      "name": "Alberich's Pointed Hat (Altered)",
-      "category": "Head"
-    },
-    "1001D90C": {
-      "name": "Alberich's Robe (Altered)",
-      "category": "Body"
-    },
-    "1001FBD0": {
-      "name": "Spellblade's Pointed Hat",
-      "category": "Head"
-    },
-    "1001FC34": {
-      "name": "Spellblade's Traveling Attire",
-      "category": "Body"
-    },
-    "1001FC98": {
-      "name": "Spellblade's Gloves",
-      "category": "Arms"
-    },
-    "1001FCFC": {
-      "name": "Spellblade's Trousers",
-      "category": "Legs"
-    },
-    "1002001C": {
-      "name": "Spellblade's Traveling Attire (Altered)",
-      "category": "Body"
-    },
-    "100222E0": {
-      "name": "Bull-Goat Helm",
-      "category": "Head"
-    },
-    "10022344": {
-      "name": "Bull-Goat Armor",
-      "category": "Body"
-    },
-    "100223A8": {
-      "name": "Bull-Goat Gauntlets",
-      "category": "Arms"
-    },
-    "1002240C": {
-      "name": "Bull-Goat Greaves",
-      "category": "Legs"
-    },
-    "100249F0": {
-      "name": "Iron Kasa",
-      "category": "Head"
-    },
-    "10024A54": {
-      "name": "Ronin's Armor",
-      "category": "Body"
-    },
-    "10024AB8": {
-      "name": "Ronin's Gauntlets",
-      "category": "Arms"
-    },
-    "10024B1C": {
-      "name": "Ronin's Greaves",
-      "category": "Legs"
-    },
-    "10024E3C": {
-      "name": "Ronin's Armor (Altered)",
-      "category": "Body"
-    },
-    "10027100": {
-      "name": "Guilty Hood",
-      "category": "Head"
-    },
-    "10027164": {
-      "name": "Cloth Garb",
-      "category": "Body"
-    },
-    "1002722C": {
-      "name": "Cloth Trousers",
-      "category": "Legs"
-    },
-    "10029810": {
-      "name": "Black Wolf Mask",
-      "category": "Head"
-    },
-    "10029874": {
-      "name": "Blaidd's Armor",
-      "category": "Body"
-    },
-    "100298D8": {
-      "name": "Blaidd's Gauntlets",
-      "category": "Arms"
-    },
-    "1002993C": {
-      "name": "Blaidd's Greaves",
-      "category": "Legs"
-    },
-    "10029C5C": {
-      "name": "Blaidd's Armor (Altered)",
-      "category": "Body"
-    },
-    "1002BF20": {
-      "name": "Black Knife Hood",
-      "category": "Head"
-    },
-    "1002BF84": {
-      "name": "Black Knife Armor",
-      "category": "Body"
-    },
-    "1002BFE8": {
-      "name": "Black Knife Gauntlets",
-      "category": "Arms"
-    },
-    "1002C04C": {
-      "name": "Black Knife Greaves",
-      "category": "Legs"
-    },
-    "1002C36C": {
-      "name": "Black Knife Armor (Altered)",
-      "category": "Body"
-    },
-    "1002E630": {
-      "name": "Exile Hood",
-      "category": "Head"
-    },
-    "1002E694": {
-      "name": "Exile Armor",
-      "category": "Body"
-    },
-    "1002E6F8": {
-      "name": "Exile Gauntlets",
-      "category": "Arms"
-    },
-    "1002E75C": {
-      "name": "Exile Greaves",
-      "category": "Legs"
-    },
-    "10030D40": {
-      "name": "Banished Knight Helm",
-      "category": "Head"
-    },
-    "10030DA4": {
-      "name": "Banished Knight Armor",
-      "category": "Body"
-    },
-    "10030E08": {
-      "name": "Banished Knight Gauntlets",
-      "category": "Arms"
-    },
-    "10030E6C": {
-      "name": "Banished Knight Greaves",
-      "category": "Legs"
-    },
-    "10031128": {
-      "name": "Banished Knight Helm (Altered)",
-      "category": "Head"
-    },
-    "1003118C": {
-      "name": "Banished Knight Armor (Altered)",
-      "category": "Body"
-    },
-    "10033450": {
-      "name": "Briar Helm",
-      "category": "Head"
-    },
-    "100334B4": {
-      "name": "Briar Armor",
-      "category": "Body"
-    },
-    "10033518": {
-      "name": "Briar Gauntlets",
-      "category": "Arms"
-    },
-    "1003357C": {
-      "name": "Briar Greaves",
-      "category": "Legs"
-    },
-    "1003389C": {
-      "name": "Briar Armor (Altered)",
-      "category": "Body"
-    },
-    "10035B60": {
-      "name": "Page Hood",
-      "category": "Head"
-    },
-    "10035BC4": {
-      "name": "Page Garb",
-      "category": "Body"
-    },
-    "10035C8C": {
-      "name": "Page Trousers",
-      "category": "Legs"
-    },
-    "10035FAC": {
-      "name": "Page Garb (Altered)",
-      "category": "Body"
-    },
-    "10038270": {
-      "name": "Night's Cavalry Helm",
-      "category": "Head"
-    },
-    "100382D4": {
-      "name": "Night's Cavalry Armor",
-      "category": "Body"
-    },
-    "10038338": {
-      "name": "Night's Cavalry Gauntlets",
-      "category": "Arms"
-    },
-    "1003839C": {
-      "name": "Night's Cavalry Greaves",
-      "category": "Legs"
-    },
-    "10038658": {
-      "name": "Night's Cavalry Helm (Altered)",
-      "category": "Head"
-    },
-    "100386BC": {
-      "name": "Night's Cavalry Armor (Altered)",
-      "category": "Body"
-    },
-    "1003A980": {
-      "name": "Blue Silver Mail Hood",
-      "category": "Head"
-    },
-    "1003A9E4": {
-      "name": "Blue Silver Mail Armor",
-      "category": "Body"
-    },
-    "1003AA48": {
-      "name": "Blue Silver Bracelets",
-      "category": "Arms"
-    },
-    "1003AAAC": {
-      "name": "Blue Silver Mail Skirt",
-      "category": "Legs"
-    },
-    "1003ADCC": {
-      "name": "Blue Silver Mail Armor (Altered)",
-      "category": "Body"
-    },
-    "1003D090": {
-      "name": "Nomadic Merchant's Chapeau",
-      "category": "Head"
-    },
-    "1003D0F4": {
-      "name": "Nomadic Merchant's Finery",
-      "category": "Body"
-    },
-    "1003D1BC": {
-      "name": "Nomadic Merchant's Trousers",
-      "category": "Legs"
-    },
-    "1003D4DC": {
-      "name": "Nomadic Merchant's Finery (Altered)",
-      "category": "Body"
-    },
-    "1003F7A0": {
-      "name": "Malformed Dragon Helm",
-      "category": "Head"
-    },
-    "1003F804": {
-      "name": "Malformed Dragon Armor",
-      "category": "Body"
-    },
-    "1003F868": {
-      "name": "Malformed Dragon Gauntlets",
-      "category": "Arms"
-    },
-    "1003F8CC": {
-      "name": "Malformed Dragon Greaves",
-      "category": "Legs"
-    },
-    "10041EB0": {
-      "name": "Tree Sentinel Helm",
-      "category": "Head"
-    },
-    "10041F14": {
-      "name": "Tree Sentinel Armor",
-      "category": "Body"
-    },
-    "10041F78": {
-      "name": "Tree Sentinel Gauntlets",
-      "category": "Arms"
-    },
-    "10041FDC": {
-      "name": "Tree Sentinel Greaves",
-      "category": "Legs"
-    },
-    "100422FC": {
-      "name": "Tree Sentinel Armor (Altered)",
-      "category": "Body"
-    },
-    "100445C0": {
-      "name": "Royal Knight Helm",
-      "category": "Head"
-    },
-    "10044624": {
-      "name": "Royal Knight Armor",
-      "category": "Body"
-    },
-    "10044688": {
-      "name": "Royal Knight Gauntlets",
-      "category": "Arms"
-    },
-    "100446EC": {
-      "name": "Royal Knight Greaves",
-      "category": "Legs"
-    },
-    "10044A0C": {
-      "name": "Royal Knight Armor (Altered)",
-      "category": "Body"
-    },
-    "10046CD0": {
-      "name": "Nox Monk Hood",
-      "category": "Head"
-    },
-    "10046D34": {
-      "name": "Nox Monk Armor",
-      "category": "Body"
-    },
-    "10046D98": {
-      "name": "Nox Monk Bracelets",
-      "category": "Arms"
-    },
-    "10046DFC": {
-      "name": "Nox Monk Greaves",
-      "category": "Legs"
-    },
-    "100470B8": {
-      "name": "Nox Monk Hood (Altered)",
-      "category": "Head"
-    },
-    "1004711C": {
-      "name": "Nox Monk Armor (Altered)",
-      "category": "Body"
-    },
-    "100474A0": {
-      "name": "Nox Swordstress Crown",
-      "category": "Head"
-    },
-    "10047504": {
-      "name": "Nox Swordstress Armor",
-      "category": "Body"
-    },
-    "10047888": {
-      "name": "Night Maiden Twin Crown",
-      "category": "Head"
-    },
-    "100478EC": {
-      "name": "Night Maiden Armor",
-      "category": "Body"
-    },
-    "10047C70": {
-      "name": "Nox Swordstress Crown (Altered)",
-      "category": "Head"
-    },
-    "10047CD4": {
-      "name": "Nox Swordstress Armor (Altered)",
-      "category": "Body"
-    },
-    "100493E0": {
-      "name": "Great Horned Headband",
-      "category": "Head"
-    },
-    "10049444": {
-      "name": "Fur Raiment",
-      "category": "Body"
-    },
-    "1004950C": {
-      "name": "Fur Leggings",
-      "category": "Legs"
-    },
-    "100497C8": {
-      "name": "Shining Horned Headband",
-      "category": "Head"
-    },
-    "1004982C": {
-      "name": "Shaman Furs",
-      "category": "Body"
-    },
-    "100498F4": {
-      "name": "Shaman Leggings",
-      "category": "Legs"
-    },
-    "1004BAF0": {
-      "name": "Duelist Helm",
-      "category": "Head"
-    },
-    "1004BB54": {
-      "name": "Gravekeeper Cloak",
-      "category": "Body"
-    },
-    "1004BC1C": {
-      "name": "Duelist Greaves",
-      "category": "Legs"
-    },
-    "1004BF3C": {
-      "name": "Gravekeeper Cloak (Altered)",
-      "category": "Body"
-    },
-    "1004E200": {
-      "name": "Sanguine Noble Hood",
-      "category": "Head"
-    },
-    "1004E264": {
-      "name": "Sanguine Noble Robe",
-      "category": "Body"
-    },
-    "1004E32C": {
-      "name": "Sanguine Noble Waistcloth",
-      "category": "Legs"
-    },
-    "10050910": {
-      "name": "Guardian Mask",
-      "category": "Head"
-    },
-    "10050974": {
-      "name": "Guardian Garb (Full Bloom)",
-      "category": "Body"
-    },
-    "100509D8": {
-      "name": "Guardian Bracers",
-      "category": "Arms"
-    },
-    "10050A3C": {
-      "name": "Guardian Greaves",
-      "category": "Legs"
-    },
-    "10050D5C": {
-      "name": "Guardian Garb",
-      "category": "Body"
-    },
-    "10053020": {
-      "name": "Cleanrot Helm",
-      "category": "Head"
-    },
-    "10053084": {
-      "name": "Cleanrot Armor",
-      "category": "Body"
-    },
-    "100530E8": {
-      "name": "Cleanrot Gauntlets",
-      "category": "Arms"
-    },
-    "1005314C": {
-      "name": "Cleanrot Greaves",
-      "category": "Legs"
-    },
-    "10053408": {
-      "name": "Cleanrot Helm (Altered)",
-      "category": "Head"
-    },
-    "1005346C": {
-      "name": "Cleanrot Armor (Altered)",
-      "category": "Body"
-    },
-    "10055730": {
-      "name": "Fire Monk Hood",
-      "category": "Head"
-    },
-    "10055794": {
-      "name": "Fire Monk Armor",
-      "category": "Body"
-    },
-    "100557F8": {
-      "name": "Fire Monk Gauntlets",
-      "category": "Arms"
-    },
-    "1005585C": {
-      "name": "Fire Monk Greaves",
-      "category": "Legs"
-    },
-    "10055B18": {
-      "name": "Blackflame Monk Hood",
-      "category": "Head"
-    },
-    "10055B7C": {
-      "name": "Blackflame Monk Armor",
-      "category": "Body"
-    },
-    "10055BE0": {
-      "name": "Blackflame Monk Gauntlets",
-      "category": "Arms"
-    },
-    "10055C44": {
-      "name": "Blackflame Monk Greaves",
-      "category": "Legs"
-    },
-    "10057E40": {
-      "name": "Fire Prelate Helm",
-      "category": "Head"
-    },
-    "10057EA4": {
-      "name": "Fire Prelate Armor",
-      "category": "Body"
-    },
-    "10057F08": {
-      "name": "Fire Prelate Gauntlets",
-      "category": "Arms"
-    },
-    "10057F6C": {
-      "name": "Fire Prelate Greaves",
-      "category": "Legs"
-    },
-    "1005828C": {
-      "name": "Fire Prelate Armor (Altered)",
-      "category": "Body"
     },
     "1005A550": {
       "name": "Aristocrat Headband",
       "category": "Head"
     },
-    "1005A5B4": {
-      "name": "Aristocrat Garb",
-      "category": "Body"
-    },
-    "1005A67C": {
-      "name": "Aristocrat Boots",
-      "category": "Legs"
-    },
-    "1005A99C": {
-      "name": "Aristocrat Garb (Altered)",
-      "category": "Body"
-    },
     "1005CC60": {
       "name": "Aristocrat Hat",
       "category": "Head"
-    },
-    "1005CCC4": {
-      "name": "Aristocrat Coat",
-      "category": "Body"
     },
     "1005F370": {
       "name": "Old Aristocrat Cowl",
       "category": "Head"
     },
-    "1005F3D4": {
-      "name": "Old Aristocrat Gown",
-      "category": "Body"
-    },
-    "1005F49C": {
-      "name": "Old Aristocrat Shoes",
-      "category": "Legs"
-    },
-    "100668A0": {
-      "name": "Vulgar Militia Helm",
+    "10035B60": {
+      "name": "Page Hood",
       "category": "Head"
     },
-    "10066904": {
-      "name": "Vulgar Militia Armor",
-      "category": "Body"
-    },
-    "10066968": {
-      "name": "Vulgar Militia Gauntlets",
-      "category": "Arms"
-    },
-    "100669CC": {
-      "name": "Vulgar Militia Greaves",
-      "category": "Legs"
-    },
-    "10068FB0": {
-      "name": "Sage Hood",
+    "101E5D70": {
+      "name": "High Page Hood",
       "category": "Head"
     },
-    "10069014": {
-      "name": "Sage Robe",
-      "category": "Body"
-    },
-    "100690DC": {
-      "name": "Sage Trousers",
-      "category": "Legs"
-    },
-    "1006B6C0": {
-      "name": "Pumpkin Helm",
+    "10050910": {
+      "name": "Guardian Mask",
       "category": "Head"
-    },
-    "100704E0": {
-      "name": "Elden Lord Crown",
-      "category": "Head"
-    },
-    "10070544": {
-      "name": "Elden Lord Armor",
-      "category": "Body"
-    },
-    "100705A8": {
-      "name": "Elden Lord Bracers",
-      "category": "Arms"
-    },
-    "1007060C": {
-      "name": "Elden Lord Greaves",
-      "category": "Legs"
-    },
-    "1007092C": {
-      "name": "Elden Lord Armor (Altered)",
-      "category": "Body"
-    },
-    "10072BF0": {
-      "name": "Radahn's Redmane Helm",
-      "category": "Head"
-    },
-    "10072C54": {
-      "name": "Radahn's Lion Armor",
-      "category": "Body"
-    },
-    "10072CB8": {
-      "name": "Radahn's Gauntlets",
-      "category": "Arms"
-    },
-    "10072D1C": {
-      "name": "Radahn's Greaves",
-      "category": "Legs"
-    },
-    "1007303C": {
-      "name": "Radahn's Lion Armor (Altered)",
-      "category": "Body"
-    },
-    "10075364": {
-      "name": "Lord of Blood's Robe",
-      "category": "Body"
-    },
-    "1007574C": {
-      "name": "Lord of Blood's Robe (Altered)",
-      "category": "Body"
-    },
-    "1007C830": {
-      "name": "Queen's Crescent Crown",
-      "category": "Head"
-    },
-    "1007C894": {
-      "name": "Queen's Robe",
-      "category": "Body"
-    },
-    "1007C8F8": {
-      "name": "Queen's Bracelets",
-      "category": "Arms"
-    },
-    "1007C95C": {
-      "name": "Queen's Leggings",
-      "category": "Legs"
-    },
-    "1007EF40": {
-      "name": "Godskin Apostle Hood",
-      "category": "Head"
-    },
-    "1007EFA4": {
-      "name": "Godskin Apostle Robe",
-      "category": "Body"
-    },
-    "1007F008": {
-      "name": "Godskin Apostle Bracelets",
-      "category": "Arms"
-    },
-    "1007F06C": {
-      "name": "Godskin Apostle Trousers",
-      "category": "Legs"
-    },
-    "10081650": {
-      "name": "Godskin Noble Hood",
-      "category": "Head"
-    },
-    "100816B4": {
-      "name": "Godskin Noble Robe",
-      "category": "Body"
-    },
-    "10081718": {
-      "name": "Godskin Noble Bracelets",
-      "category": "Arms"
-    },
-    "1008177C": {
-      "name": "Godskin Noble Trousers",
-      "category": "Legs"
-    },
-    "10083D60": {
-      "name": "Depraved Perfumer Headscarf",
-      "category": "Head"
-    },
-    "10083DC4": {
-      "name": "Depraved Perfumer Robe",
-      "category": "Body"
-    },
-    "10083E28": {
-      "name": "Depraved Perfumer Gloves",
-      "category": "Arms"
-    },
-    "10083E8C": {
-      "name": "Depraved Perfumer Trousers",
-      "category": "Legs"
-    },
-    "100841AC": {
-      "name": "Depraved Perfumer Robe (Altered)",
-      "category": "Body"
-    },
-    "1008B290": {
-      "name": "Crucible Axe Helm",
-      "category": "Head"
-    },
-    "1008B2F4": {
-      "name": "Crucible Axe Armor",
-      "category": "Body"
-    },
-    "1008B358": {
-      "name": "Crucible Gauntlets",
-      "category": "Arms"
-    },
-    "1008B3BC": {
-      "name": "Crucible Greaves",
-      "category": "Legs"
-    },
-    "1008B678": {
-      "name": "Crucible Tree Helm",
-      "category": "Head"
-    },
-    "1008B6DC": {
-      "name": "Crucible Tree Armor",
-      "category": "Body"
-    },
-    "1008BAC4": {
-      "name": "Crucible Axe Armor (Altered)",
-      "category": "Body"
-    },
-    "1008BEAC": {
-      "name": "Crucible Tree Armor (Altered)",
-      "category": "Body"
-    },
-    "1008D9A0": {
-      "name": "Lusat's Glintstone Crown",
-      "category": "Head"
-    },
-    "1008DA04": {
-      "name": "Lusat's Robe",
-      "category": "Body"
-    },
-    "1008DA68": {
-      "name": "Lusat's Manchettes",
-      "category": "Arms"
-    },
-    "1008DACC": {
-      "name": "Old Sorcerer's Legwraps",
-      "category": "Legs"
-    },
-    "1008DD88": {
-      "name": "Azur's Glintstone Crown",
-      "category": "Head"
-    },
-    "1008DDEC": {
-      "name": "Azur's Glintstone Robe",
-      "category": "Body"
-    },
-    "1008DE50": {
-      "name": "Azur's Manchettes",
-      "category": "Arms"
-    },
-    "100900B0": {
-      "name": "All-Knowing Helm",
-      "category": "Head"
-    },
-    "10090114": {
-      "name": "All-Knowing Armor",
-      "category": "Body"
-    },
-    "10090178": {
-      "name": "All-Knowing Gauntlets",
-      "category": "Arms"
-    },
-    "100901DC": {
-      "name": "All-Knowing Greaves",
-      "category": "Legs"
-    },
-    "100904FC": {
-      "name": "All-Knowing Armor (Altered)",
-      "category": "Body"
-    },
-    "100927C0": {
-      "name": "Twinned Helm",
-      "category": "Head"
-    },
-    "10092824": {
-      "name": "Twinned Armor",
-      "category": "Body"
-    },
-    "10092888": {
-      "name": "Twinned Gauntlets",
-      "category": "Arms"
-    },
-    "100928EC": {
-      "name": "Twinned Greaves",
-      "category": "Legs"
-    },
-    "10092C0C": {
-      "name": "Twinned Armor (Altered)",
-      "category": "Body"
-    },
-    "10094ED0": {
-      "name": "Ragged Hat",
-      "category": "Head"
-    },
-    "10094F34": {
-      "name": "Ragged Armor",
-      "category": "Body"
-    },
-    "10094F98": {
-      "name": "Ragged Gloves",
-      "category": "Arms"
-    },
-    "10094FFC": {
-      "name": "Ragged Loincloth",
-      "category": "Legs"
-    },
-    "100952B8": {
-      "name": "Ragged Hat (Altered)",
-      "category": "Head"
-    },
-    "1009531C": {
-      "name": "Ragged Armor (Altered)",
-      "category": "Body"
-    },
-    "100975E0": {
-      "name": "Prophet Blindfold",
-      "category": "Head"
-    },
-    "10097644": {
-      "name": "Corhyn's Robe",
-      "category": "Body"
-    },
-    "1009770C": {
-      "name": "Prophet Trousers",
-      "category": "Legs"
-    },
-    "10097A2C": {
-      "name": "Prophet Robe (Altered)",
-      "category": "Body"
-    },
-    "10097E14": {
-      "name": "Prophet Robe",
-      "category": "Body"
-    },
-    "10099CF0": {
-      "name": "Astrologer Hood",
-      "category": "Head"
-    },
-    "10099D54": {
-      "name": "Astrologer Robe",
-      "category": "Body"
-    },
-    "10099DB8": {
-      "name": "Astrologer Gloves",
-      "category": "Arms"
-    },
-    "10099E1C": {
-      "name": "Astrologer Trousers",
-      "category": "Legs"
-    },
-    "1009A13C": {
-      "name": "Astrologer Robe (Altered)",
-      "category": "Body"
-    },
-    "1009C400": {
-      "name": "Lionel's Helm",
-      "category": "Head"
-    },
-    "1009C464": {
-      "name": "Lionel's Armor",
-      "category": "Body"
-    },
-    "1009C4C8": {
-      "name": "Lionel's Gauntlets",
-      "category": "Arms"
-    },
-    "1009C52C": {
-      "name": "Lionel's Greaves",
-      "category": "Legs"
-    },
-    "1009C84C": {
-      "name": "Lionel's Armor (Altered)",
-      "category": "Body"
-    },
-    "1009EB10": {
-      "name": "Hoslow's Helm",
-      "category": "Head"
-    },
-    "1009EB74": {
-      "name": "Hoslow's Armor",
-      "category": "Body"
-    },
-    "1009EBD8": {
-      "name": "Hoslow's Gauntlets",
-      "category": "Arms"
-    },
-    "1009EC3C": {
-      "name": "Hoslow's Greaves",
-      "category": "Legs"
-    },
-    "1009EEF8": {
-      "name": "Diallos's Mask",
-      "category": "Head"
-    },
-    "1009F344": {
-      "name": "Hoslow's Armor (Altered)",
-      "category": "Body"
-    },
-    "100A1220": {
-      "name": "Vagabond Knight Helm",
-      "category": "Head"
-    },
-    "100A1284": {
-      "name": "Vagabond Knight Armor",
-      "category": "Body"
-    },
-    "100A12E8": {
-      "name": "Vagabond Knight Gauntlets",
-      "category": "Arms"
-    },
-    "100A134C": {
-      "name": "Vagabond Knight Greaves",
-      "category": "Legs"
-    },
-    "100A166C": {
-      "name": "Vagabond Knight Armor (Altered)",
-      "category": "Body"
-    },
-    "100A3930": {
-      "name": "Blue Cloth Cowl",
-      "category": "Head"
-    },
-    "100A3994": {
-      "name": "Blue Cloth Vest",
-      "category": "Body"
-    },
-    "100A39F8": {
-      "name": "Warrior Gauntlets",
-      "category": "Arms"
-    },
-    "100A3A5C": {
-      "name": "Warrior Greaves",
-      "category": "Legs"
-    },
-    "100A6040": {
-      "name": "White Mask",
-      "category": "Head"
-    },
-    "100A60A4": {
-      "name": "War Surgeon Gown",
-      "category": "Body"
-    },
-    "100A6108": {
-      "name": "War Surgeon Gloves",
-      "category": "Arms"
-    },
-    "100A616C": {
-      "name": "War Surgeon Trousers",
-      "category": "Legs"
-    },
-    "100A648C": {
-      "name": "War Surgeon Gown (Altered)",
-      "category": "Body"
-    },
-    "100A8750": {
-      "name": "Royal Remains Helm",
-      "category": "Head"
-    },
-    "100A87B4": {
-      "name": "Royal Remains Armor",
-      "category": "Body"
-    },
-    "100A8818": {
-      "name": "Royal Remains Gauntlets",
-      "category": "Arms"
-    },
-    "100A887C": {
-      "name": "Royal Remains Greaves",
-      "category": "Legs"
-    },
-    "100AAE60": {
-      "name": "Brave's Cord Circlet",
-      "category": "Head"
-    },
-    "100AAEC4": {
-      "name": "Brave's Battlewear",
-      "category": "Body"
-    },
-    "100AAF28": {
-      "name": "Brave's Bracer",
-      "category": "Arms"
-    },
-    "100AAF8C": {
-      "name": "Brave's Legwraps",
-      "category": "Legs"
-    },
-    "100AB248": {
-      "name": "Brave's Leather Helm",
-      "category": "Head"
-    },
-    "100AB630": {
-      "name": "Brave's Battlewear (Altered)",
-      "category": "Body"
-    },
-    "100AFC80": {
-      "name": "Beast Champion Helm",
-      "category": "Head"
-    },
-    "100AFCE4": {
-      "name": "Beast Champion Armor",
-      "category": "Body"
-    },
-    "100AFD48": {
-      "name": "Beast Champion Gauntlets",
-      "category": "Arms"
-    },
-    "100AFDAC": {
-      "name": "Beast Champion Greaves",
-      "category": "Legs"
-    },
-    "100B00CC": {
-      "name": "Beast Champion Armor (Altered)",
-      "category": "Body"
-    },
-    "100B2390": {
-      "name": "Champion Headband",
-      "category": "Head"
-    },
-    "100B23F4": {
-      "name": "Champion Pauldron",
-      "category": "Body"
-    },
-    "100B2458": {
-      "name": "Champion Bracers",
-      "category": "Arms"
-    },
-    "100B24BC": {
-      "name": "Champion Gaiters",
-      "category": "Legs"
-    },
-    "100B4AA0": {
-      "name": "Crimson Hood",
-      "category": "Head"
-    },
-    "100B4B04": {
-      "name": "Noble's Traveling Garb",
-      "category": "Body"
-    },
-    "100B4B68": {
-      "name": "Noble's Gloves",
-      "category": "Arms"
-    },
-    "100B4BCC": {
-      "name": "Noble's Trousers",
-      "category": "Legs"
-    },
-    "100B4E88": {
-      "name": "Navy Hood",
-      "category": "Head"
-    },
-    "100B98C0": {
-      "name": "Maliketh's Helm",
-      "category": "Head"
-    },
-    "100B9924": {
-      "name": "Maliketh's Armor",
-      "category": "Body"
-    },
-    "100B9988": {
-      "name": "Maliketh's Gauntlets",
-      "category": "Arms"
-    },
-    "100B99EC": {
-      "name": "Maliketh's Greaves",
-      "category": "Legs"
-    },
-    "100B9D0C": {
-      "name": "Maliketh's Armor (Altered)",
-      "category": "Body"
-    },
-    "100BBFD0": {
-      "name": "Malenia's Winged Helm",
-      "category": "Head"
-    },
-    "100BC034": {
-      "name": "Malenia's Armor",
-      "category": "Body"
-    },
-    "100BC098": {
-      "name": "Malenia's Gauntlet",
-      "category": "Arms"
-    },
-    "100BC0FC": {
-      "name": "Malenia's Greaves",
-      "category": "Legs"
-    },
-    "100BC41C": {
-      "name": "Malenia's Armor (Altered)",
-      "category": "Body"
-    },
-    "100BE6E0": {
-      "name": "Veteran's Helm",
-      "category": "Head"
-    },
-    "100BE744": {
-      "name": "Veteran's Armor",
-      "category": "Body"
-    },
-    "100BE7A8": {
-      "name": "Veteran's Gauntlets",
-      "category": "Arms"
-    },
-    "100BE80C": {
-      "name": "Veteran's Greaves",
-      "category": "Legs"
-    },
-    "100BEB2C": {
-      "name": "Veteran's Armor (Altered)",
-      "category": "Body"
-    },
-    "100C0DF0": {
-      "name": "Bloodhound Knight Helm",
-      "category": "Head"
-    },
-    "100C0E54": {
-      "name": "Bloodhound Knight Armor",
-      "category": "Body"
-    },
-    "100C0EB8": {
-      "name": "Bloodhound Knight Gauntlets",
-      "category": "Arms"
-    },
-    "100C0F1C": {
-      "name": "Bloodhound Knight Greaves",
-      "category": "Legs"
-    },
-    "100C123C": {
-      "name": "Bloodhound Knight Armor (Altered)",
-      "category": "Body"
     },
     "100C3500": {
       "name": "Festive Hood",
       "category": "Head"
     },
-    "100C3564": {
-      "name": "Festive Garb",
-      "category": "Body"
-    },
-    "100C38E8": {
-      "name": "Festive Hood (Altered)",
-      "category": "Head"
-    },
-    "100C394C": {
-      "name": "Festive Garb (Altered)",
-      "category": "Body"
-    },
     "100C3CD0": {
       "name": "Blue Festive Hood",
       "category": "Head"
     },
-    "100C3D34": {
-      "name": "Blue Festive Garb",
-      "category": "Body"
-    },
-    "100C5C10": {
-      "name": "Commoner's Headband",
+    "10027100": {
+      "name": "Guilty Hood",
       "category": "Head"
     },
-    "100C5C74": {
-      "name": "Commoner's Garb",
-      "category": "Body"
-    },
-    "100C5D3C": {
-      "name": "Commoner's Shoes",
-      "category": "Legs"
-    },
-    "100C5FF8": {
-      "name": "Commoner's Headband (Altered)",
+    "100D9490": {
+      "name": "Prisoner Iron Mask",
       "category": "Head"
     },
-    "100C605C": {
-      "name": "Commoner's Garb (Altered)",
-      "category": "Body"
-    },
-    "100C63E0": {
-      "name": "Commoner's Simple Garb",
-      "category": "Body"
-    },
-    "100C6444": {
-      "name": "Commoner's Simple Garb (Altered)",
-      "category": "Body"
-    },
-    "100C8320": {
-      "name": "Envoy Crown",
+    "100D9878": {
+      "name": "Blackguard's Iron Mask",
       "category": "Head"
     },
-    "100CAA30": {
-      "name": "Twinsage Glintstone Crown",
+    "100EB5A0": {
+      "name": "Bloodsoaked Mask",
       "category": "Head"
     },
-    "100CAA94": {
-      "name": "Raya Lucarian Robe",
-      "category": "Body"
-    },
-    "100CAAF8": {
-      "name": "Sorcerer Manchettes",
-      "category": "Arms"
-    },
-    "100CAB5C": {
-      "name": "Sorcerer Leggings",
-      "category": "Legs"
-    },
-    "100CAE18": {
-      "name": "Olivinus Glintstone Crown",
+    "101ED2A0": {
+      "name": "Black Dumpling",
       "category": "Head"
     },
-    "100CB200": {
-      "name": "Lazuli Glintstone Crown",
+    "10113E10": {
+      "name": "Mushroom Head",
+      "category": "Head"
+    },
+    "101EAB90": {
+      "name": "Mushroom Crown",
+      "category": "Head"
+    },
+    "10099CF0": {
+      "name": "Astrologer Hood",
+      "category": "Head"
+    },
+    "100FB770": {
+      "name": "Juvenile Scholar Cap",
       "category": "Head"
     },
     "100CB5E8": {
       "name": "Karolos Glintstone Crown",
       "category": "Head"
     },
+    "100CAE18": {
+      "name": "Olivinus Glintstone Crown",
+      "category": "Head"
+    },
+    "100CAA30": {
+      "name": "Twinsage Glintstone Crown",
+      "category": "Head"
+    },
     "100CB9D0": {
       "name": "Witch's Glintstone Crown",
       "category": "Head"
     },
-    "100CD140": {
-      "name": "Marionette Soldier Helm",
+    "100CB200": {
+      "name": "Lazuli Glintstone Crown",
       "category": "Head"
     },
-    "100CD1A4": {
-      "name": "Marionette Soldier Armor",
-      "category": "Body"
-    },
-    "100CF850": {
-      "name": "Marionette Soldier Birdhelm",
+    "100F4240": {
+      "name": "Haima Glintstone Crown",
       "category": "Head"
     },
-    "100D1F60": {
-      "name": "Raging Wolf Helm",
+    "100F1B30": {
+      "name": "Hierodas Glintstone Crown",
       "category": "Head"
     },
-    "100D1FC4": {
-      "name": "Raging Wolf Armor",
-      "category": "Body"
-    },
-    "100D2028": {
-      "name": "Raging Wolf Gauntlets",
-      "category": "Arms"
-    },
-    "100D208C": {
-      "name": "Raging Wolf Greaves",
-      "category": "Legs"
-    },
-    "100D23AC": {
-      "name": "Raging Wolf Armor (Altered)",
-      "category": "Body"
-    },
-    "100D4670": {
-      "name": "Land of Reeds Helm",
+    "1001FBD0": {
+      "name": "Spellblade's Pointed Hat",
       "category": "Head"
     },
-    "100D46D4": {
-      "name": "Land of Reeds Armor",
-      "category": "Body"
-    },
-    "100D4738": {
-      "name": "Land of Reeds Gauntlets",
-      "category": "Arms"
-    },
-    "100D479C": {
-      "name": "Land of Reeds Greaves",
-      "category": "Legs"
-    },
-    "100D4ABC": {
-      "name": "Land of Reeds Armor (Altered)",
-      "category": "Body"
-    },
-    "100D4E40": {
-      "name": "Okina Mask",
+    "1001D4C0": {
+      "name": "Alberich's Pointed Hat",
       "category": "Head"
     },
-    "100D4EA4": {
-      "name": "White Reed Armor",
-      "category": "Body"
-    },
-    "100D4F08": {
-      "name": "White Reed Gauntlets",
-      "category": "Arms"
-    },
-    "100D4F6C": {
-      "name": "White Reed Greaves",
-      "category": "Legs"
-    },
-    "100D6D80": {
-      "name": "Confessor Hood",
+    "100DE2B0": {
+      "name": "Preceptor's Big Hat",
       "category": "Head"
     },
-    "100D6DE4": {
-      "name": "Confessor Armor",
-      "category": "Body"
-    },
-    "100D6E48": {
-      "name": "Confessor Gloves",
-      "category": "Arms"
-    },
-    "100D6EAC": {
-      "name": "Confessor Boots",
-      "category": "Legs"
-    },
-    "100D7168": {
-      "name": "Confessor Hood (Altered)",
+    "100DE698": {
+      "name": "Mask of Confidence",
       "category": "Head"
     },
-    "100D71CC": {
-      "name": "Confessor Armor (Altered)",
-      "category": "Body"
-    },
-    "100D9490": {
-      "name": "Prisoner Iron Mask",
+    "1008DD88": {
+      "name": "Azur's Glintstone Crown",
       "category": "Head"
     },
-    "100D94F4": {
-      "name": "Prisoner Clothing",
-      "category": "Body"
+    "1008D9A0": {
+      "name": "Lusat's Glintstone Crown",
+      "category": "Head"
     },
-    "100D95BC": {
-      "name": "Prisoner Trousers",
-      "category": "Legs"
+    "1007C830": {
+      "name": "Queen's Crescent Crown",
+      "category": "Head"
     },
-    "100D9878": {
-      "name": "Blackguard's Iron Mask",
+    "100F6950": {
+      "name": "Snow Witch Hat",
+      "category": "Head"
+    },
+    "101D9A20": {
+      "name": "Fia's Hood",
+      "category": "Head"
+    },
+    "100975E0": {
+      "name": "Prophet Blindfold",
       "category": "Head"
     },
     "100DBBA0": {
       "name": "Traveling Maiden Hood",
       "category": "Head"
     },
-    "100DBC04": {
-      "name": "Traveling Maiden Robe",
-      "category": "Body"
-    },
-    "100DBC68": {
-      "name": "Traveling Maiden Gloves",
-      "category": "Arms"
-    },
-    "100DBCCC": {
-      "name": "Traveling Maiden Boots",
-      "category": "Legs"
-    },
-    "100DBFEC": {
-      "name": "Traveling Maiden Robe (Altered)",
-      "category": "Body"
-    },
     "100DC370": {
       "name": "Finger Maiden Fillet",
       "category": "Head"
     },
-    "100DC3D4": {
-      "name": "Finger Maiden Robe",
-      "category": "Body"
-    },
-    "100DC49C": {
-      "name": "Finger Maiden Shoes",
-      "category": "Legs"
-    },
-    "100DC7BC": {
-      "name": "Finger Maiden Robe (Altered)",
-      "category": "Body"
-    },
-    "100DE2B0": {
-      "name": "Preceptor's Big Hat",
+    "10068FB0": {
+      "name": "Sage Hood",
       "category": "Head"
     },
-    "100DE314": {
-      "name": "Preceptor's Long Gown",
-      "category": "Body"
-    },
-    "100DE378": {
-      "name": "Preceptor's Gloves",
-      "category": "Arms"
-    },
-    "100DE3DC": {
-      "name": "Preceptor's Trousers",
-      "category": "Legs"
-    },
-    "100DE698": {
-      "name": "Mask of Confidence",
+    "10186A00": {
+      "name": "Greathood",
       "category": "Head"
-    },
-    "100DE6FC": {
-      "name": "Preceptor's Long Gown (Altered)",
-      "category": "Body"
-    },
-    "100E09C0": {
-      "name": "Grass Hair Ornament",
-      "category": "Head"
-    },
-    "100E30D0": {
-      "name": "Skeletal Mask",
-      "category": "Head"
-    },
-    "100E3134": {
-      "name": "Raptor's Black Feathers",
-      "category": "Body"
-    },
-    "100E3198": {
-      "name": "Bandit Manchettes",
-      "category": "Arms"
-    },
-    "100E31FC": {
-      "name": "Bandit Boots",
-      "category": "Legs"
-    },
-    "100E351C": {
-      "name": "Bandit Garb",
-      "category": "Body"
-    },
-    "100E57E0": {
-      "name": "Eccentric's Hood",
-      "category": "Head"
-    },
-    "100E5844": {
-      "name": "Eccentric's Armor",
-      "category": "Body"
-    },
-    "100E58A8": {
-      "name": "Eccentric's Manchettes",
-      "category": "Arms"
-    },
-    "100E590C": {
-      "name": "Eccentric's Breeches",
-      "category": "Legs"
-    },
-    "100E5BC8": {
-      "name": "Eccentric's Hood (Altered)",
-      "category": "Head"
-    },
-    "100E7EF0": {
-      "name": "Fingerprint Helm",
-      "category": "Head"
-    },
-    "100E7F54": {
-      "name": "Fingerprint Armor",
-      "category": "Body"
-    },
-    "100E7FB8": {
-      "name": "Fingerprint Gauntlets",
-      "category": "Arms"
-    },
-    "100E801C": {
-      "name": "Fingerprint Greaves",
-      "category": "Legs"
-    },
-    "100E833C": {
-      "name": "Fingerprint Armor (Altered)",
-      "category": "Body"
-    },
-    "100EA600": {
-      "name": "Consort's Mask",
-      "category": "Head"
-    },
-    "100EA664": {
-      "name": "Consort's Robe",
-      "category": "Body"
-    },
-    "100EA72C": {
-      "name": "Consort's Trousers",
-      "category": "Legs"
-    },
-    "100EA9E8": {
-      "name": "Ruler's Mask",
-      "category": "Head"
-    },
-    "100EAA4C": {
-      "name": "Ruler's Robe",
-      "category": "Body"
-    },
-    "100EAE34": {
-      "name": "Upper-Class Robe",
-      "category": "Body"
-    },
-    "100EB1B8": {
-      "name": "Marais Mask",
-      "category": "Head"
-    },
-    "100EB21C": {
-      "name": "Marais Robe",
-      "category": "Body"
-    },
-    "100EB280": {
-      "name": "Bloodsoaked Manchettes",
-      "category": "Arms"
-    },
-    "100EB5A0": {
-      "name": "Bloodsoaked Mask",
-      "category": "Head"
-    },
-    "100EB604": {
-      "name": "Official's Attire",
-      "category": "Body"
-    },
-    "100ECD10": {
-      "name": "Omen Helm",
-      "category": "Head"
-    },
-    "100ECD74": {
-      "name": "Omen Armor",
-      "category": "Body"
-    },
-    "100ECDD8": {
-      "name": "Omen Gauntlets",
-      "category": "Arms"
-    },
-    "100ECE3C": {
-      "name": "Omen Greaves",
-      "category": "Legs"
-    },
-    "100EF420": {
-      "name": "Carian Knight Helm",
-      "category": "Head"
-    },
-    "100EF484": {
-      "name": "Carian Knight Armor",
-      "category": "Body"
-    },
-    "100EF4E8": {
-      "name": "Carian Knight Gauntlets",
-      "category": "Arms"
-    },
-    "100EF54C": {
-      "name": "Carian Knight Greaves",
-      "category": "Legs"
-    },
-    "100EF86C": {
-      "name": "Carian Knight Armor (Altered)",
-      "category": "Body"
-    },
-    "100F1B30": {
-      "name": "Hierodas Glintstone Crown",
-      "category": "Head"
-    },
-    "100F1B94": {
-      "name": "Errant Sorcerer Robe",
-      "category": "Body"
-    },
-    "100F1BF8": {
-      "name": "Errant Sorcerer Manchettes",
-      "category": "Arms"
-    },
-    "100F1C5C": {
-      "name": "Errant Sorcerer Boots",
-      "category": "Legs"
-    },
-    "100F1F7C": {
-      "name": "Errant Sorcerer Robe (Altered)",
-      "category": "Body"
-    },
-    "100F4240": {
-      "name": "Haima Glintstone Crown",
-      "category": "Head"
-    },
-    "100F42A4": {
-      "name": "Battlemage Robe",
-      "category": "Body"
-    },
-    "100F4308": {
-      "name": "Battlemage Manchettes",
-      "category": "Arms"
-    },
-    "100F436C": {
-      "name": "Battlemage Legwraps",
-      "category": "Legs"
-    },
-    "100F6950": {
-      "name": "Snow Witch Hat",
-      "category": "Head"
-    },
-    "100F69B4": {
-      "name": "Snow Witch Robe",
-      "category": "Body"
-    },
-    "100F6A7C": {
-      "name": "Snow Witch Skirt",
-      "category": "Legs"
-    },
-    "100F6D9C": {
-      "name": "Snow Witch Robe (Altered)",
-      "category": "Body"
-    },
-    "100F90C4": {
-      "name": "Traveler's Clothes",
-      "category": "Body"
-    },
-    "100F9128": {
-      "name": "Traveler's Manchettes",
-      "category": "Arms"
-    },
-    "100F918C": {
-      "name": "Traveler's Boots",
-      "category": "Legs"
-    },
-    "100FB770": {
-      "name": "Juvenile Scholar Cap",
-      "category": "Head"
-    },
-    "100FB7D4": {
-      "name": "Juvenile Scholar Robe",
-      "category": "Body"
     },
     "100FDE80": {
       "name": "Radiant Gold Mask",
       "category": "Head"
     },
-    "100FDEE4": {
-      "name": "Goldmask's Rags",
-      "category": "Body"
-    },
-    "100FDF48": {
-      "name": "Gold Bracelets",
-      "category": "Arms"
-    },
-    "100FDFAC": {
-      "name": "Gold Waistwrap",
-      "category": "Legs"
-    },
-    "101005F4": {
-      "name": "Fell Omen Cloak",
-      "category": "Body"
-    },
-    "10102CA0": {
-      "name": "Albinauric Mask",
+    "10015F90": {
+      "name": "Perfumer Hood",
       "category": "Head"
     },
-    "10102D04": {
-      "name": "Dirty Chainmail",
-      "category": "Body"
-    },
-    "101053B0": {
-      "name": "Zamor Mask",
+    "100186A0": {
+      "name": "Traveler's Hat",
       "category": "Head"
     },
-    "10105414": {
-      "name": "Zamor Armor",
-      "category": "Body"
+    "10083D60": {
+      "name": "Depraved Perfumer Headscarf",
+      "category": "Head"
     },
-    "10105478": {
-      "name": "Zamor Bracelets",
-      "category": "Arms"
+    "100EA9E8": {
+      "name": "Ruler's Mask",
+      "category": "Head"
     },
-    "101054DC": {
-      "name": "Zamor Legwraps",
-      "category": "Legs"
+    "100EA600": {
+      "name": "Consort's Mask",
+      "category": "Head"
+    },
+    "100EB1B8": {
+      "name": "Marais Mask",
+      "category": "Head"
+    },
+    "100493E0": {
+      "name": "Great Horned Headband",
+      "category": "Head"
+    },
+    "100497C8": {
+      "name": "Shining Horned Headband",
+      "category": "Head"
+    },
+    "1007EF40": {
+      "name": "Godskin Apostle Hood",
+      "category": "Head"
+    },
+    "10081650": {
+      "name": "Godskin Noble Hood",
+      "category": "Head"
+    },
+    "1004E200": {
+      "name": "Sanguine Noble Hood",
+      "category": "Head"
+    },
+    "101D24F0": {
+      "name": "Crimson Tear Scarab",
+      "category": "Head"
+    },
+    "101D4C00": {
+      "name": "Cerulean Tear Scarab",
+      "category": "Head"
+    },
+    "101CFDE0": {
+      "name": "Ash-of-War Scarab",
+      "category": "Head"
+    },
+    "101D05B0": {
+      "name": "Glintstone Scarab",
+      "category": "Head"
+    },
+    "101D01C8": {
+      "name": "Incantation Scarab",
+      "category": "Head"
     },
     "10107AC0": {
       "name": "Imp Head (Cat)",
+      "category": "Head"
+    },
+    "10108A60": {
+      "name": "Imp Head (Wolf)",
       "category": "Head"
     },
     "10107EA8": {
@@ -3302,69 +1754,9 @@
       "name": "Imp Head (Corpse)",
       "category": "Head"
     },
-    "10108A60": {
-      "name": "Imp Head (Wolf)",
-      "category": "Head"
-    },
     "10108E48": {
       "name": "Imp Head (Elder)",
       "category": "Head"
-    },
-    "1010A1D0": {
-      "name": "Silver Tear Mask",
-      "category": "Head"
-    },
-    "1010C8E0": {
-      "name": "Chain Coif",
-      "category": "Head"
-    },
-    "1010C944": {
-      "name": "Chain Armor",
-      "category": "Body"
-    },
-    "1010C9A8": {
-      "name": "Chain Gauntlets",
-      "category": "Arms"
-    },
-    "1010CA0C": {
-      "name": "Chain Leggings",
-      "category": "Legs"
-    },
-    "1010CCC8": {
-      "name": "Greathelm",
-      "category": "Head"
-    },
-    "1010CD2C": {
-      "name": "Eye Surcoat",
-      "category": "Body"
-    },
-    "1010D114": {
-      "name": "Tree Surcoat",
-      "category": "Body"
-    },
-    "1010EFF0": {
-      "name": "Octopus Head",
-      "category": "Head"
-    },
-    "10111700": {
-      "name": "Jar",
-      "category": "Head"
-    },
-    "10113E10": {
-      "name": "Mushroom Head",
-      "category": "Head"
-    },
-    "10113E74": {
-      "name": "Mushroom Body",
-      "category": "Body"
-    },
-    "10113ED8": {
-      "name": "Mushroom Arms",
-      "category": "Arms"
-    },
-    "10113F3C": {
-      "name": "Mushroom Legs",
-      "category": "Legs"
     },
     "1013D620": {
       "name": "Nox Mirrorhelm",
@@ -3374,309 +1766,617 @@
       "name": "Iji's Mirrorhelm",
       "category": "Head"
     },
-    "10155CC0": {
-      "name": "Black Hood",
+    "1010A1D0": {
+      "name": "Silver Tear Mask",
       "category": "Head"
     },
-    "10155D24": {
-      "name": "Leather Armor",
-      "category": "Body"
+    "100C8320": {
+      "name": "Envoy Crown",
+      "category": "Head"
     },
-    "10155D88": {
-      "name": "Leather Gloves",
-      "category": "Arms"
+    "1010EFF0": {
+      "name": "Octopus Head",
+      "category": "Head"
     },
-    "10155DEC": {
-      "name": "Leather Boots",
-      "category": "Legs"
+    "10111700": {
+      "name": "Jar",
+      "category": "Head"
+    },
+    "10102CA0": {
+      "name": "Albinauric Mask",
+      "category": "Head"
+    },
+    "10029810": {
+      "name": "Black Wolf Mask",
+      "category": "Head"
+    },
+    "100A3930": {
+      "name": "Blue Cloth Cowl",
+      "category": "Head"
+    },
+    "100B4AA0": {
+      "name": "Crimson Hood",
+      "category": "Head"
+    },
+    "100B4E88": {
+      "name": "Navy Hood",
+      "category": "Head"
+    },
+    "100A6040": {
+      "name": "White Mask",
+      "category": "Head"
+    },
+    "1003D090": {
+      "name": "Nomadic Merchant's Chapeau",
+      "category": "Head"
     },
     "101560A8": {
       "name": "Bandit Mask",
       "category": "Head"
     },
-    "1016E360": {
-      "name": "Knight Helm",
+    "10155CC0": {
+      "name": "Black Hood",
       "category": "Head"
     },
-    "1016E3C4": {
-      "name": "Knight Armor",
-      "category": "Body"
+    "100D6D80": {
+      "name": "Confessor Hood",
+      "category": "Head"
     },
-    "1016E428": {
-      "name": "Knight Gauntlets",
-      "category": "Arms"
+    "101CD6D0": {
+      "name": "Omensmirk Mask",
+      "category": "Head"
     },
-    "1016E48C": {
-      "name": "Knight Greaves",
-      "category": "Legs"
+    "100E30D0": {
+      "name": "Skeletal Mask",
+      "category": "Head"
     },
-    "10186A00": {
-      "name": "Greathood",
+    "101C61A0": {
+      "name": "Foot Soldier Helm",
+      "category": "Head"
+    },
+    "101C1380": {
+      "name": "Foot Soldier Helmet",
+      "category": "Head"
+    },
+    "101BEC70": {
+      "name": "Foot Soldier Cap",
+      "category": "Head"
+    },
+    "101C3A90": {
+      "name": "Gilded Foot Soldier Cap",
+      "category": "Head"
+    },
+    "101CAFC0": {
+      "name": "Sacred Crown Helm",
+      "category": "Head"
+    },
+    "101E3660": {
+      "name": "Highwayman Hood",
+      "category": "Head"
+    },
+    "100668A0": {
+      "name": "Vulgar Militia Helm",
+      "category": "Head"
+    },
+    "1004BAF0": {
+      "name": "Duelist Helm",
+      "category": "Head"
+    },
+    "101E8480": {
+      "name": "Rotten Duelist Helm",
+      "category": "Head"
+    },
+    "10046CD0": {
+      "name": "Nox Monk Hood",
+      "category": "Head"
+    },
+    "100474A0": {
+      "name": "Nox Swordstress Crown",
+      "category": "Head"
+    },
+    "10047888": {
+      "name": "Night Maiden Twin Crown",
+      "category": "Head"
+    },
+    "100B2390": {
+      "name": "Champion Headband",
+      "category": "Head"
+    },
+    "1010C8E0": {
+      "name": "Chain Coif",
+      "category": "Head"
+    },
+    "10009C40": {
+      "name": "Iron Helmet",
       "category": "Head"
     },
     "1019F0A0": {
       "name": "Godrick Soldier Helm",
       "category": "Head"
     },
-    "1019F104": {
-      "name": "Tree-and-Beast Surcoat",
-      "category": "Body"
-    },
-    "1019F168": {
-      "name": "Godrick Soldier Gauntlets",
-      "category": "Arms"
-    },
-    "1019F1CC": {
-      "name": "Godrick Soldier Greaves",
-      "category": "Legs"
-    },
     "101A17B0": {
       "name": "Raya Lucarian Helm",
       "category": "Head"
-    },
-    "101A1814": {
-      "name": "Cuckoo Surcoat",
-      "category": "Body"
-    },
-    "101A1878": {
-      "name": "Raya Lucarian Gauntlets",
-      "category": "Arms"
-    },
-    "101A18DC": {
-      "name": "Raya Lucarian Greaves",
-      "category": "Legs"
-    },
-    "101A3EC0": {
-      "name": "Leyndell Soldier Helm",
-      "category": "Head"
-    },
-    "101A3F24": {
-      "name": "Erdtree Surcoat",
-      "category": "Body"
-    },
-    "101A3F88": {
-      "name": "Leyndell Soldier Gauntlets",
-      "category": "Arms"
-    },
-    "101A3FEC": {
-      "name": "Leyndell Soldier Greaves",
-      "category": "Legs"
     },
     "101A65D0": {
       "name": "Radahn Soldier Helm",
       "category": "Head"
     },
-    "101A6634": {
-      "name": "Redmane Surcoat",
-      "category": "Body"
-    },
-    "101A6698": {
-      "name": "Radahn Soldier Gauntlets",
-      "category": "Arms"
-    },
-    "101A66FC": {
-      "name": "Radahn Soldier Greaves",
-      "category": "Legs"
-    },
-    "101A8D44": {
-      "name": "Mausoleum Surcoat",
-      "category": "Body"
-    },
-    "101A8DA8": {
-      "name": "Mausoleum Gauntlets",
-      "category": "Arms"
-    },
-    "101A8E0C": {
-      "name": "Mausoleum Greaves",
-      "category": "Legs"
+    "101A3EC0": {
+      "name": "Leyndell Soldier Helm",
+      "category": "Head"
     },
     "101AB3F0": {
       "name": "Haligtree Helm",
       "category": "Head"
     },
-    "101AB454": {
-      "name": "Haligtree Crest Surcoat",
-      "category": "Body"
-    },
-    "101AB4B8": {
-      "name": "Haligtree Gauntlets",
-      "category": "Arms"
-    },
-    "101AB51C": {
-      "name": "Haligtree Greaves",
-      "category": "Legs"
-    },
-    "101ADB00": {
-      "name": "Gelmir Knight Helm",
+    "1002E630": {
+      "name": "Exile Hood",
       "category": "Head"
     },
-    "101ADB64": {
-      "name": "Gelmir Knight Armor",
-      "category": "Body"
+    "1000C350": {
+      "name": "Kaiden Helm",
+      "category": "Head"
     },
-    "101ADBC8": {
-      "name": "Gelmir Knight Gauntlets",
-      "category": "Arms"
+    "100D4670": {
+      "name": "Land of Reeds Helm",
+      "category": "Head"
     },
-    "101ADC2C": {
-      "name": "Gelmir Knight Greaves",
-      "category": "Legs"
+    "100D4E40": {
+      "name": "Okina Mask",
+      "category": "Head"
     },
-    "101ADF4C": {
-      "name": "Gelmir Knight Armor (Altered)",
-      "category": "Body"
+    "100249F0": {
+      "name": "Iron Kasa",
+      "category": "Head"
+    },
+    "100E57E0": {
+      "name": "Eccentric's Hood",
+      "category": "Head"
+    },
+    "100CD140": {
+      "name": "Marionette Soldier Helm",
+      "category": "Head"
+    },
+    "100CF850": {
+      "name": "Marionette Soldier Birdhelm",
+      "category": "Head"
+    },
+    "1003A980": {
+      "name": "Blue Silver Mail Hood",
+      "category": "Head"
+    },
+    "10055730": {
+      "name": "Fire Monk Hood",
+      "category": "Head"
+    },
+    "10055B18": {
+      "name": "Blackflame Monk Hood",
+      "category": "Head"
+    },
+    "101053B0": {
+      "name": "Zamor Mask",
+      "category": "Head"
+    },
+    "1002BF20": {
+      "name": "Black Knife Hood",
+      "category": "Head"
+    },
+    "100BBFD0": {
+      "name": "Malenia's Winged Helm",
+      "category": "Head"
+    },
+    "100704E0": {
+      "name": "Elden Lord Crown",
+      "category": "Head"
+    },
+    "1016E360": {
+      "name": "Knight Helm",
+      "category": "Head"
+    },
+    "100A1220": {
+      "name": "Vagabond Knight Helm",
+      "category": "Head"
+    },
+    "1010CCC8": {
+      "name": "Greathelm",
+      "category": "Head"
+    },
+    "100EF420": {
+      "name": "Carian Knight Helm",
+      "category": "Head"
     },
     "101B0210": {
       "name": "Godrick Knight Helm",
       "category": "Head"
     },
-    "101B0274": {
-      "name": "Godrick Knight Armor",
-      "category": "Body"
-    },
-    "101B02D8": {
-      "name": "Godrick Knight Gauntlets",
-      "category": "Arms"
-    },
-    "101B033C": {
-      "name": "Godrick Knight Greaves",
-      "category": "Legs"
-    },
-    "101B065C": {
-      "name": "Godrick Knight Armor (Altered)",
-      "category": "Body"
-    },
     "101B2920": {
       "name": "Cuckoo Knight Helm",
       "category": "Head"
-    },
-    "101B2984": {
-      "name": "Cuckoo Knight Armor",
-      "category": "Body"
-    },
-    "101B29E8": {
-      "name": "Cuckoo Knight Gauntlets",
-      "category": "Arms"
-    },
-    "101B2A4C": {
-      "name": "Cuckoo Knight Greaves",
-      "category": "Legs"
-    },
-    "101B2D6C": {
-      "name": "Cuckoo Knight Armor (Altered)",
-      "category": "Body"
-    },
-    "101B5030": {
-      "name": "Leyndell Knight Helm",
-      "category": "Head"
-    },
-    "101B5094": {
-      "name": "Leyndell Knight Armor",
-      "category": "Body"
-    },
-    "101B50F8": {
-      "name": "Leyndell Knight Gauntlets",
-      "category": "Arms"
-    },
-    "101B515C": {
-      "name": "Leyndell Knight Greaves",
-      "category": "Legs"
-    },
-    "101B547C": {
-      "name": "Leyndell Knight Armor (Altered)",
-      "category": "Body"
     },
     "101B7740": {
       "name": "Redmane Knight Helm",
       "category": "Head"
     },
-    "101B77A4": {
-      "name": "Redmane Knight Armor",
-      "category": "Body"
+    "101ADB00": {
+      "name": "Gelmir Knight Helm",
+      "category": "Head"
     },
-    "101B7808": {
-      "name": "Redmane Knight Gauntlets",
-      "category": "Arms"
-    },
-    "101B786C": {
-      "name": "Redmane Knight Greaves",
-      "category": "Legs"
-    },
-    "101B7B8C": {
-      "name": "Redmane Knight Armor (Altered)",
-      "category": "Body"
-    },
-    "101B9EB4": {
-      "name": "Mausoleum Knight Armor",
-      "category": "Body"
-    },
-    "101B9F18": {
-      "name": "Mausoleum Knight Gauntlets",
-      "category": "Arms"
-    },
-    "101B9F7C": {
-      "name": "Mausoleum Knight Greaves",
-      "category": "Legs"
-    },
-    "101BA29C": {
-      "name": "Mausoleum Knight Armor (Altered)",
-      "category": "Body"
+    "101B5030": {
+      "name": "Leyndell Knight Helm",
+      "category": "Head"
     },
     "101BC560": {
       "name": "Haligtree Knight Helm",
       "category": "Head"
     },
-    "101BC5C4": {
-      "name": "Haligtree Knight Armor",
-      "category": "Body"
-    },
-    "101BC628": {
-      "name": "Haligtree Knight Gauntlets",
-      "category": "Arms"
-    },
-    "101BC68C": {
-      "name": "Haligtree Knight Greaves",
-      "category": "Legs"
-    },
-    "101BC9AC": {
-      "name": "Haligtree Knight Armor (Altered)",
-      "category": "Body"
-    },
-    "101BEC70": {
-      "name": "Foot Soldier Cap",
+    "100C0DF0": {
+      "name": "Bloodhound Knight Helm",
       "category": "Head"
     },
-    "101BECD4": {
-      "name": "Chain-Draped Tabard",
+    "10053020": {
+      "name": "Cleanrot Helm",
+      "category": "Head"
+    },
+    "100D1F60": {
+      "name": "Raging Wolf Helm",
+      "category": "Head"
+    },
+    "1009EB10": {
+      "name": "Hoslow's Helm",
+      "category": "Head"
+    },
+    "1009EEF8": {
+      "name": "Diallos's Mask",
+      "category": "Head"
+    },
+    "100927C0": {
+      "name": "Twinned Helm",
+      "category": "Head"
+    },
+    "1000EA60": {
+      "name": "Drake Knight Helm",
+      "category": "Head"
+    },
+    "10033450": {
+      "name": "Briar Helm",
+      "category": "Head"
+    },
+    "100E7EF0": {
+      "name": "Fingerprint Helm",
+      "category": "Head"
+    },
+    "100A8750": {
+      "name": "Royal Remains Helm",
+      "category": "Head"
+    },
+    "100900B0": {
+      "name": "All-Knowing Helm",
+      "category": "Head"
+    },
+    "100445C0": {
+      "name": "Royal Knight Helm",
+      "category": "Head"
+    },
+    "100B98C0": {
+      "name": "Maliketh's Helm",
+      "category": "Head"
+    },
+    "10030D40": {
+      "name": "Banished Knight Helm",
+      "category": "Head"
+    },
+    "10038270": {
+      "name": "Night's Cavalry Helm",
+      "category": "Head"
+    },
+    "100BE6E0": {
+      "name": "Veteran's Helm",
+      "category": "Head"
+    },
+    "10013880": {
+      "name": "Scaled Helm",
+      "category": "Head"
+    },
+    "100AFC80": {
+      "name": "Beast Champion Helm",
+      "category": "Head"
+    },
+    "10041EB0": {
+      "name": "Tree Sentinel Helm",
+      "category": "Head"
+    },
+    "1003F7A0": {
+      "name": "Malformed Dragon Helm",
+      "category": "Head"
+    },
+    "1008B290": {
+      "name": "Crucible Axe Helm",
+      "category": "Head"
+    },
+    "1008B678": {
+      "name": "Crucible Tree Helm",
+      "category": "Head"
+    },
+    "10072BF0": {
+      "name": "Radahn's Redmane Helm",
+      "category": "Head"
+    },
+    "1009C400": {
+      "name": "Lionel's Helm",
+      "category": "Head"
+    },
+    "100222E0": {
+      "name": "Bull-Goat Helm",
+      "category": "Head"
+    },
+    "100ECD10": {
+      "name": "Omen Helm",
+      "category": "Head"
+    },
+    "10057E40": {
+      "name": "Fire Prelate Helm",
+      "category": "Head"
+    },
+    "1006B6C0": {
+      "name": "Pumpkin Helm",
+      "category": "Head"
+    },
+    "10027164": {
+      "name": "Cloth Garb",
       "category": "Body"
     },
-    "101BED38": {
-      "name": "Foot Soldier Gauntlets",
-      "category": "Arms"
+    "100F90C4": {
+      "name": "Traveler's Clothes",
+      "category": "Body"
     },
-    "101BED9C": {
-      "name": "Foot Soldier Greaves",
-      "category": "Legs"
+    "100C63E0": {
+      "name": "Commoner's Simple Garb",
+      "category": "Body"
     },
-    "101C1380": {
-      "name": "Foot Soldier Helmet",
-      "category": "Head"
+    "100C5C74": {
+      "name": "Commoner's Garb",
+      "category": "Body"
+    },
+    "1005A5B4": {
+      "name": "Aristocrat Garb",
+      "category": "Body"
+    },
+    "1005CCC4": {
+      "name": "Aristocrat Coat",
+      "category": "Body"
+    },
+    "1005F3D4": {
+      "name": "Old Aristocrat Gown",
+      "category": "Body"
+    },
+    "10035BC4": {
+      "name": "Page Garb",
+      "category": "Body"
+    },
+    "101E5DD4": {
+      "name": "High Page Clothes",
+      "category": "Body"
+    },
+    "10050D5C": {
+      "name": "Guardian Garb",
+      "category": "Body"
+    },
+    "10050974": {
+      "name": "Guardian Garb (Full Bloom)",
+      "category": "Body"
+    },
+    "100C3564": {
+      "name": "Festive Garb",
+      "category": "Body"
+    },
+    "100C3D34": {
+      "name": "Blue Festive Garb",
+      "category": "Body"
+    },
+    "100D94F4": {
+      "name": "Prisoner Clothing",
+      "category": "Body"
+    },
+    "10113E74": {
+      "name": "Mushroom Body",
+      "category": "Body"
+    },
+    "10099D54": {
+      "name": "Astrologer Robe",
+      "category": "Body"
+    },
+    "100FB7D4": {
+      "name": "Juvenile Scholar Robe",
+      "category": "Body"
+    },
+    "100CAA94": {
+      "name": "Raya Lucarian Robe",
+      "category": "Body"
+    },
+    "101EF9B0": {
+      "name": "Lazuli Robe",
+      "category": "Body"
+    },
+    "100F42A4": {
+      "name": "Battlemage Robe",
+      "category": "Body"
+    },
+    "100F1B94": {
+      "name": "Errant Sorcerer Robe",
+      "category": "Body"
+    },
+    "1001FC34": {
+      "name": "Spellblade's Traveling Attire",
+      "category": "Body"
+    },
+    "1001D524": {
+      "name": "Alberich's Robe",
+      "category": "Body"
+    },
+    "100DE314": {
+      "name": "Preceptor's Long Gown",
+      "category": "Body"
+    },
+    "1008DDEC": {
+      "name": "Azur's Glintstone Robe",
+      "category": "Body"
+    },
+    "1008DA04": {
+      "name": "Lusat's Robe",
+      "category": "Body"
+    },
+    "1007C894": {
+      "name": "Queen's Robe",
+      "category": "Body"
+    },
+    "100F69B4": {
+      "name": "Snow Witch Robe",
+      "category": "Body"
+    },
+    "101D9A84": {
+      "name": "Fia's Robe",
+      "category": "Body"
+    },
+    "101D7374": {
+      "name": "Deathbed Dress",
+      "category": "Body"
+    },
+    "10097E14": {
+      "name": "Prophet Robe",
+      "category": "Body"
+    },
+    "10097644": {
+      "name": "Corhyn's Robe",
+      "category": "Body"
+    },
+    "100DBC04": {
+      "name": "Traveling Maiden Robe",
+      "category": "Body"
+    },
+    "100DC3D4": {
+      "name": "Finger Maiden Robe",
+      "category": "Body"
+    },
+    "10069014": {
+      "name": "Sage Robe",
+      "category": "Body"
+    },
+    "100FDEE4": {
+      "name": "Goldmask's Rags",
+      "category": "Body"
+    },
+    "10015FF4": {
+      "name": "Perfumer Robe",
+      "category": "Body"
+    },
+    "10018704": {
+      "name": "Perfumer's Traveling Garb",
+      "category": "Body"
+    },
+    "10083DC4": {
+      "name": "Depraved Perfumer Robe",
+      "category": "Body"
+    },
+    "100EAE34": {
+      "name": "Upper-Class Robe",
+      "category": "Body"
+    },
+    "100EAA4C": {
+      "name": "Ruler's Robe",
+      "category": "Body"
+    },
+    "100EA664": {
+      "name": "Consort's Robe",
+      "category": "Body"
+    },
+    "100EB604": {
+      "name": "Official's Attire",
+      "category": "Body"
+    },
+    "100EB21C": {
+      "name": "Marais Robe",
+      "category": "Body"
+    },
+    "10049444": {
+      "name": "Fur Raiment",
+      "category": "Body"
+    },
+    "1004982C": {
+      "name": "Shaman Furs",
+      "category": "Body"
+    },
+    "1007EFA4": {
+      "name": "Godskin Apostle Robe",
+      "category": "Body"
+    },
+    "100816B4": {
+      "name": "Godskin Noble Robe",
+      "category": "Body"
+    },
+    "101005F4": {
+      "name": "Fell Omen Cloak",
+      "category": "Body"
+    },
+    "1004E264": {
+      "name": "Sanguine Noble Robe",
+      "category": "Body"
+    },
+    "10075364": {
+      "name": "Lord of Blood's Robe",
+      "category": "Body"
+    },
+    "10155D24": {
+      "name": "Leather Armor",
+      "category": "Body"
+    },
+    "100A3994": {
+      "name": "Blue Cloth Vest",
+      "category": "Body"
+    },
+    "100B4B04": {
+      "name": "Noble's Traveling Garb",
+      "category": "Body"
+    },
+    "100A60A4": {
+      "name": "War Surgeon Gown",
+      "category": "Body"
+    },
+    "1003D0F4": {
+      "name": "Nomadic Merchant's Finery",
+      "category": "Body"
+    },
+    "100E351C": {
+      "name": "Bandit Garb",
+      "category": "Body"
+    },
+    "100D6DE4": {
+      "name": "Confessor Armor",
+      "category": "Body"
+    },
+    "101CD734": {
+      "name": "Omenkiller Robe",
+      "category": "Body"
+    },
+    "100E3134": {
+      "name": "Raptor's Black Feathers",
+      "category": "Body"
     },
     "101C13E4": {
       "name": "Foot Soldier Tabard",
       "category": "Body"
     },
-    "101C3A90": {
-      "name": "Gilded Foot Soldier Cap",
-      "category": "Head"
-    },
     "101C3AF4": {
       "name": "Leather-Draped Tabard",
       "category": "Body"
     },
-    "101C61A0": {
-      "name": "Foot Soldier Helm",
-      "category": "Head"
+    "101BECD4": {
+      "name": "Chain-Draped Tabard",
+      "category": "Body"
+    },
+    "101CB024": {
+      "name": "Ivory-Draped Tabard",
+      "category": "Body"
     },
     "101C6204": {
       "name": "Scarlet Tabard",
@@ -3686,141 +2386,1061 @@
       "name": "Bloodsoaked Tabard",
       "category": "Body"
     },
-    "101CAFC0": {
-      "name": "Sacred Crown Helm",
-      "category": "Head"
-    },
-    "101CB024": {
-      "name": "Ivory-Draped Tabard",
-      "category": "Body"
-    },
-    "101CD6D0": {
-      "name": "Omensmirk Mask",
-      "category": "Head"
-    },
-    "101CD734": {
-      "name": "Omenkiller Robe",
-      "category": "Body"
-    },
-    "101CD798": {
-      "name": "Omenkiller Long Gloves",
-      "category": "Arms"
-    },
-    "101CD7FC": {
-      "name": "Omenkiller Boots",
-      "category": "Legs"
-    },
-    "101CFDE0": {
-      "name": "Ash-of-War Scarab",
-      "category": "Head"
-    },
-    "101D01C8": {
-      "name": "Incantation Scarab",
-      "category": "Head"
-    },
-    "101D05B0": {
-      "name": "Glintstone Scarab",
-      "category": "Head"
-    },
-    "101D24F0": {
-      "name": "Crimson Tear Scarab",
-      "category": "Head"
-    },
-    "101D4C00": {
-      "name": "Cerulean Tear Scarab",
-      "category": "Head"
-    },
-    "101D7374": {
-      "name": "Deathbed Dress",
-      "category": "Body"
-    },
-    "101D743C": {
-      "name": "Deathbed Smalls",
-      "category": "Legs"
-    },
-    "101D9A20": {
-      "name": "Fia's Hood",
-      "category": "Head"
-    },
-    "101D9A84": {
-      "name": "Fia's Robe",
-      "category": "Body"
-    },
-    "101D9E6C": {
-      "name": "Fia's Robe (Altered)",
-      "category": "Body"
-    },
-    "101DC194": {
-      "name": "Millicent's Robe",
-      "category": "Body"
-    },
-    "101DC1F8": {
-      "name": "Millicent's Gloves",
-      "category": "Arms"
-    },
-    "101DC25C": {
-      "name": "Millicent's Boots",
-      "category": "Legs"
-    },
-    "101E0FB4": {
-      "name": "Millicent's Tunic",
-      "category": "Body"
-    },
-    "101E1018": {
-      "name": "Golden Prosthetic",
-      "category": "Arms"
-    },
-    "101E3660": {
-      "name": "Highwayman Hood",
-      "category": "Head"
-    },
     "101E36C4": {
       "name": "Highwayman Cloth Armor",
       "category": "Body"
     },
-    "101E3728": {
-      "name": "Highwayman Gauntlets",
-      "category": "Arms"
-    },
-    "101E5D70": {
-      "name": "High Page Hood",
-      "category": "Head"
-    },
-    "101E5DD4": {
-      "name": "High Page Clothes",
+    "10066904": {
+      "name": "Vulgar Militia Armor",
       "category": "Body"
     },
-    "101E61BC": {
-      "name": "High Page Clothes (Altered)",
+    "1004BB54": {
+      "name": "Gravekeeper Cloak",
       "category": "Body"
-    },
-    "101E8480": {
-      "name": "Rotten Duelist Helm",
-      "category": "Head"
     },
     "101E84E4": {
       "name": "Rotten Gravekeeper Cloak",
       "category": "Body"
     },
+    "10046D34": {
+      "name": "Nox Monk Armor",
+      "category": "Body"
+    },
+    "10047504": {
+      "name": "Nox Swordstress Armor",
+      "category": "Body"
+    },
+    "100478EC": {
+      "name": "Night Maiden Armor",
+      "category": "Body"
+    },
+    "100B23F4": {
+      "name": "Champion Pauldron",
+      "category": "Body"
+    },
+    "1010C944": {
+      "name": "Chain Armor",
+      "category": "Body"
+    },
+    "10102D04": {
+      "name": "Dirty Chainmail",
+      "category": "Body"
+    },
+    "1010D114": {
+      "name": "Tree Surcoat",
+      "category": "Body"
+    },
+    "1010CD2C": {
+      "name": "Eye Surcoat",
+      "category": "Body"
+    },
+    "1019F104": {
+      "name": "Tree-and-Beast Surcoat",
+      "category": "Body"
+    },
+    "101A1814": {
+      "name": "Cuckoo Surcoat",
+      "category": "Body"
+    },
+    "101A6634": {
+      "name": "Redmane Surcoat",
+      "category": "Body"
+    },
+    "101A3F24": {
+      "name": "Erdtree Surcoat",
+      "category": "Body"
+    },
+    "101AB454": {
+      "name": "Haligtree Crest Surcoat",
+      "category": "Body"
+    },
+    "101A8D44": {
+      "name": "Mausoleum Surcoat",
+      "category": "Body"
+    },
+    "10009CA4": {
+      "name": "Scale Armor",
+      "category": "Body"
+    },
+    "1002E694": {
+      "name": "Exile Armor",
+      "category": "Body"
+    },
+    "1000C3B4": {
+      "name": "Kaiden Armor",
+      "category": "Body"
+    },
+    "100D46D4": {
+      "name": "Land of Reeds Armor",
+      "category": "Body"
+    },
+    "100D4EA4": {
+      "name": "White Reed Armor",
+      "category": "Body"
+    },
+    "10024A54": {
+      "name": "Ronin's Armor",
+      "category": "Body"
+    },
+    "100E5844": {
+      "name": "Eccentric's Armor",
+      "category": "Body"
+    },
+    "100CD1A4": {
+      "name": "Marionette Soldier Armor",
+      "category": "Body"
+    },
+    "1003A9E4": {
+      "name": "Blue Silver Mail Armor",
+      "category": "Body"
+    },
+    "10055794": {
+      "name": "Fire Monk Armor",
+      "category": "Body"
+    },
+    "10055B7C": {
+      "name": "Blackflame Monk Armor",
+      "category": "Body"
+    },
+    "10105414": {
+      "name": "Zamor Armor",
+      "category": "Body"
+    },
+    "1002BF84": {
+      "name": "Black Knife Armor",
+      "category": "Body"
+    },
+    "100BC034": {
+      "name": "Malenia's Armor",
+      "category": "Body"
+    },
+    "10070544": {
+      "name": "Elden Lord Armor",
+      "category": "Body"
+    },
+    "1016E3C4": {
+      "name": "Knight Armor",
+      "category": "Body"
+    },
+    "100A1284": {
+      "name": "Vagabond Knight Armor",
+      "category": "Body"
+    },
+    "100EF484": {
+      "name": "Carian Knight Armor",
+      "category": "Body"
+    },
+    "101B0274": {
+      "name": "Godrick Knight Armor",
+      "category": "Body"
+    },
+    "101B2984": {
+      "name": "Cuckoo Knight Armor",
+      "category": "Body"
+    },
+    "101B77A4": {
+      "name": "Redmane Knight Armor",
+      "category": "Body"
+    },
+    "101ADB64": {
+      "name": "Gelmir Knight Armor",
+      "category": "Body"
+    },
+    "101B5094": {
+      "name": "Leyndell Knight Armor",
+      "category": "Body"
+    },
+    "101BC5C4": {
+      "name": "Haligtree Knight Armor",
+      "category": "Body"
+    },
+    "101B9EB4": {
+      "name": "Mausoleum Knight Armor",
+      "category": "Body"
+    },
+    "100C0E54": {
+      "name": "Bloodhound Knight Armor",
+      "category": "Body"
+    },
+    "10053084": {
+      "name": "Cleanrot Armor",
+      "category": "Body"
+    },
+    "100D1FC4": {
+      "name": "Raging Wolf Armor",
+      "category": "Body"
+    },
+    "1009EB74": {
+      "name": "Hoslow's Armor",
+      "category": "Body"
+    },
+    "10092824": {
+      "name": "Twinned Armor",
+      "category": "Body"
+    },
+    "1000EAC4": {
+      "name": "Drake Knight Armor",
+      "category": "Body"
+    },
+    "10029874": {
+      "name": "Blaidd's Armor",
+      "category": "Body"
+    },
+    "100334B4": {
+      "name": "Briar Armor",
+      "category": "Body"
+    },
+    "100E7F54": {
+      "name": "Fingerprint Armor",
+      "category": "Body"
+    },
+    "100A87B4": {
+      "name": "Royal Remains Armor",
+      "category": "Body"
+    },
+    "10090114": {
+      "name": "All-Knowing Armor",
+      "category": "Body"
+    },
+    "10044624": {
+      "name": "Royal Knight Armor",
+      "category": "Body"
+    },
+    "100B9924": {
+      "name": "Maliketh's Armor",
+      "category": "Body"
+    },
+    "10030DA4": {
+      "name": "Banished Knight Armor",
+      "category": "Body"
+    },
+    "100382D4": {
+      "name": "Night's Cavalry Armor",
+      "category": "Body"
+    },
+    "100BE744": {
+      "name": "Veteran's Armor",
+      "category": "Body"
+    },
+    "100138E4": {
+      "name": "Scaled Armor",
+      "category": "Body"
+    },
+    "100AFCE4": {
+      "name": "Beast Champion Armor",
+      "category": "Body"
+    },
+    "10041F14": {
+      "name": "Tree Sentinel Armor",
+      "category": "Body"
+    },
+    "1003F804": {
+      "name": "Malformed Dragon Armor",
+      "category": "Body"
+    },
+    "1008B2F4": {
+      "name": "Crucible Axe Armor",
+      "category": "Body"
+    },
+    "1008B6DC": {
+      "name": "Crucible Tree Armor",
+      "category": "Body"
+    },
+    "10072C54": {
+      "name": "Radahn's Lion Armor",
+      "category": "Body"
+    },
+    "1009C464": {
+      "name": "Lionel's Armor",
+      "category": "Body"
+    },
+    "10022344": {
+      "name": "Bull-Goat Armor",
+      "category": "Body"
+    },
+    "100ECD74": {
+      "name": "Omen Armor",
+      "category": "Body"
+    },
+    "10057EA4": {
+      "name": "Fire Prelate Armor",
+      "category": "Body"
+    },
+    "100F9128": {
+      "name": "Traveler's Manchettes",
+      "category": "Arms"
+    },
+    "100509D8": {
+      "name": "Guardian Bracers",
+      "category": "Arms"
+    },
+    "100EB280": {
+      "name": "Bloodsoaked Manchettes",
+      "category": "Arms"
+    },
+    "10113ED8": {
+      "name": "Mushroom Arms",
+      "category": "Arms"
+    },
+    "10099DB8": {
+      "name": "Astrologer Gloves",
+      "category": "Arms"
+    },
+    "100CAAF8": {
+      "name": "Sorcerer Manchettes",
+      "category": "Arms"
+    },
+    "100F4308": {
+      "name": "Battlemage Manchettes",
+      "category": "Arms"
+    },
+    "100F1BF8": {
+      "name": "Errant Sorcerer Manchettes",
+      "category": "Arms"
+    },
+    "1001FC98": {
+      "name": "Spellblade's Gloves",
+      "category": "Arms"
+    },
+    "1001D588": {
+      "name": "Alberich's Bracers",
+      "category": "Arms"
+    },
+    "100DE378": {
+      "name": "Preceptor's Gloves",
+      "category": "Arms"
+    },
+    "1008DE50": {
+      "name": "Azur's Manchettes",
+      "category": "Arms"
+    },
+    "1008DA68": {
+      "name": "Lusat's Manchettes",
+      "category": "Arms"
+    },
+    "1007C8F8": {
+      "name": "Queen's Bracelets",
+      "category": "Arms"
+    },
+    "100DBC68": {
+      "name": "Traveling Maiden Gloves",
+      "category": "Arms"
+    },
+    "100FDF48": {
+      "name": "Gold Bracelets",
+      "category": "Arms"
+    },
+    "10016058": {
+      "name": "Perfumer Gloves",
+      "category": "Arms"
+    },
+    "10018768": {
+      "name": "Traveler's Gloves",
+      "category": "Arms"
+    },
+    "10083E28": {
+      "name": "Depraved Perfumer Gloves",
+      "category": "Arms"
+    },
+    "1007F008": {
+      "name": "Godskin Apostle Bracelets",
+      "category": "Arms"
+    },
+    "10081718": {
+      "name": "Godskin Noble Bracelets",
+      "category": "Arms"
+    },
+    "10155D88": {
+      "name": "Leather Gloves",
+      "category": "Arms"
+    },
+    "100A39F8": {
+      "name": "Warrior Gauntlets",
+      "category": "Arms"
+    },
+    "100B4B68": {
+      "name": "Noble's Gloves",
+      "category": "Arms"
+    },
+    "100A6108": {
+      "name": "War Surgeon Gloves",
+      "category": "Arms"
+    },
+    "100E3198": {
+      "name": "Bandit Manchettes",
+      "category": "Arms"
+    },
+    "100D6E48": {
+      "name": "Confessor Gloves",
+      "category": "Arms"
+    },
+    "101CD798": {
+      "name": "Omenkiller Long Gloves",
+      "category": "Arms"
+    },
+    "101BED38": {
+      "name": "Foot Soldier Gauntlets",
+      "category": "Arms"
+    },
+    "101E3728": {
+      "name": "Highwayman Gauntlets",
+      "category": "Arms"
+    },
+    "10066968": {
+      "name": "Vulgar Militia Gauntlets",
+      "category": "Arms"
+    },
+    "10046D98": {
+      "name": "Nox Bracelets",
+      "category": "Arms"
+    },
+    "100B2458": {
+      "name": "Champion Bracers",
+      "category": "Arms"
+    },
+    "1010C9A8": {
+      "name": "Gauntlets",
+      "category": "Arms"
+    },
+    "10009D08": {
+      "name": "Iron Gauntlets",
+      "category": "Arms"
+    },
+    "1019F168": {
+      "name": "Godrick Soldier Gauntlets",
+      "category": "Arms"
+    },
+    "101A1878": {
+      "name": "Raya Lucarian Gauntlets",
+      "category": "Arms"
+    },
+    "101A6698": {
+      "name": "Radahn Soldier Gauntlets",
+      "category": "Arms"
+    },
+    "101A3F88": {
+      "name": "Leyndell Soldier Gauntlets",
+      "category": "Arms"
+    },
+    "101AB4B8": {
+      "name": "Haligtree Gauntlets",
+      "category": "Arms"
+    },
+    "101A8DA8": {
+      "name": "Mausoleum Gauntlets",
+      "category": "Arms"
+    },
+    "1002E6F8": {
+      "name": "Exile Gauntlets",
+      "category": "Arms"
+    },
+    "1000C418": {
+      "name": "Kaiden Gauntlets",
+      "category": "Arms"
+    },
+    "100D4738": {
+      "name": "Land of Reeds Gauntlets",
+      "category": "Arms"
+    },
+    "100D4F08": {
+      "name": "White Reed Gauntlets",
+      "category": "Arms"
+    },
+    "10024AB8": {
+      "name": "Ronin's Gauntlets",
+      "category": "Arms"
+    },
+    "100E58A8": {
+      "name": "Eccentric's Manchettes",
+      "category": "Arms"
+    },
+    "1003AA48": {
+      "name": "Blue Silver Bracelets",
+      "category": "Arms"
+    },
+    "100557F8": {
+      "name": "Fire Monk Gauntlets",
+      "category": "Arms"
+    },
+    "10055BE0": {
+      "name": "Blackflame Monk Gauntlets",
+      "category": "Arms"
+    },
+    "10105478": {
+      "name": "Zamor Bracelets",
+      "category": "Arms"
+    },
+    "1002BFE8": {
+      "name": "Black Knife Gauntlets",
+      "category": "Arms"
+    },
+    "100BC098": {
+      "name": "Malenia's Gauntlet",
+      "category": "Arms"
+    },
+    "100705A8": {
+      "name": "Elden Lord Bracers",
+      "category": "Arms"
+    },
+    "1016E428": {
+      "name": "Knight Gauntlets",
+      "category": "Arms"
+    },
+    "100A12E8": {
+      "name": "Vagabond Knight Gauntlets",
+      "category": "Arms"
+    },
+    "100EF4E8": {
+      "name": "Carian Knight Gauntlets",
+      "category": "Arms"
+    },
+    "101B02D8": {
+      "name": "Godrick Knight Gauntlets",
+      "category": "Arms"
+    },
+    "101B29E8": {
+      "name": "Cuckoo Knight Gauntlets",
+      "category": "Arms"
+    },
+    "101B7808": {
+      "name": "Redmane Knight Gauntlets",
+      "category": "Arms"
+    },
+    "101ADBC8": {
+      "name": "Gelmir Knight Gauntlets",
+      "category": "Arms"
+    },
+    "101B50F8": {
+      "name": "Leyndell Knight Gauntlets",
+      "category": "Arms"
+    },
+    "101BC628": {
+      "name": "Haligtree Knight Gauntlets",
+      "category": "Arms"
+    },
+    "101B9F18": {
+      "name": "Mausoleum Knight Gauntlets",
+      "category": "Arms"
+    },
+    "100C0EB8": {
+      "name": "Bloodhound Knight Gauntlets",
+      "category": "Arms"
+    },
+    "100530E8": {
+      "name": "Cleanrot Gauntlets",
+      "category": "Arms"
+    },
+    "100D2028": {
+      "name": "Raging Wolf Gauntlets",
+      "category": "Arms"
+    },
+    "1009EBD8": {
+      "name": "Hoslow's Gauntlets",
+      "category": "Arms"
+    },
+    "10092888": {
+      "name": "Twinned Gauntlets",
+      "category": "Arms"
+    },
+    "1000EB28": {
+      "name": "Drake Knight Gauntlets",
+      "category": "Arms"
+    },
+    "100298D8": {
+      "name": "Blaidd's Gauntlets",
+      "category": "Arms"
+    },
+    "10033518": {
+      "name": "Briar Gauntlets",
+      "category": "Arms"
+    },
+    "100E7FB8": {
+      "name": "Fingerprint Gauntlets",
+      "category": "Arms"
+    },
+    "100A8818": {
+      "name": "Royal Remains Gauntlets",
+      "category": "Arms"
+    },
+    "10090178": {
+      "name": "All-Knowing Gauntlets",
+      "category": "Arms"
+    },
+    "10044688": {
+      "name": "Royal Knight Gauntlets",
+      "category": "Arms"
+    },
+    "100B9988": {
+      "name": "Maliketh's Gauntlets",
+      "category": "Arms"
+    },
+    "10030E08": {
+      "name": "Banished Knight Gauntlets",
+      "category": "Arms"
+    },
+    "10038338": {
+      "name": "Night's Cavalry Gauntlets",
+      "category": "Arms"
+    },
+    "100BE7A8": {
+      "name": "Veteran's Gauntlets",
+      "category": "Arms"
+    },
+    "10013948": {
+      "name": "Scaled Gauntlets",
+      "category": "Arms"
+    },
+    "100AFD48": {
+      "name": "Beast Champion Gauntlets",
+      "category": "Arms"
+    },
+    "10041F78": {
+      "name": "Tree Sentinel Gauntlets",
+      "category": "Arms"
+    },
+    "1003F868": {
+      "name": "Malformed Dragon Gauntlets",
+      "category": "Arms"
+    },
+    "1008B358": {
+      "name": "Crucible Gauntlets",
+      "category": "Arms"
+    },
+    "10072CB8": {
+      "name": "Radahn's Gauntlets",
+      "category": "Arms"
+    },
+    "1009C4C8": {
+      "name": "Lionel's Gauntlets",
+      "category": "Arms"
+    },
+    "100223A8": {
+      "name": "Bull-Goat Gauntlets",
+      "category": "Arms"
+    },
+    "100ECDD8": {
+      "name": "Omen Gauntlets",
+      "category": "Arms"
+    },
+    "10057F08": {
+      "name": "Fire Prelate Gauntlets",
+      "category": "Arms"
+    },
+    "1002722C": {
+      "name": "Cloth Trousers",
+      "category": "Legs"
+    },
+    "100F918C": {
+      "name": "Traveler's Boots",
+      "category": "Legs"
+    },
+    "100C5D3C": {
+      "name": "Commoner's Shoes",
+      "category": "Legs"
+    },
+    "1005A67C": {
+      "name": "Aristocrat Boots",
+      "category": "Legs"
+    },
+    "1005F49C": {
+      "name": "Old Aristocrat Shoes",
+      "category": "Legs"
+    },
+    "10035C8C": {
+      "name": "Page Trousers",
+      "category": "Legs"
+    },
+    "10050A3C": {
+      "name": "Guardian Greaves",
+      "category": "Legs"
+    },
+    "100D95BC": {
+      "name": "Prisoner Trousers",
+      "category": "Legs"
+    },
+    "10113F3C": {
+      "name": "Mushroom Legs",
+      "category": "Legs"
+    },
+    "10099E1C": {
+      "name": "Astrologer Trousers",
+      "category": "Legs"
+    },
+    "100CAB5C": {
+      "name": "Sorcerer Leggings",
+      "category": "Legs"
+    },
+    "100F436C": {
+      "name": "Battlemage Legwraps",
+      "category": "Legs"
+    },
+    "100F1C5C": {
+      "name": "Errant Sorcerer Boots",
+      "category": "Legs"
+    },
+    "1001FCFC": {
+      "name": "Spellblade's Trousers",
+      "category": "Legs"
+    },
+    "1001D5EC": {
+      "name": "Alberich's Trousers",
+      "category": "Legs"
+    },
+    "100DE3DC": {
+      "name": "Preceptor's Trousers",
+      "category": "Legs"
+    },
+    "1008DACC": {
+      "name": "Old Sorcerer's Legwraps",
+      "category": "Legs"
+    },
+    "1007C95C": {
+      "name": "Queen's Leggings",
+      "category": "Legs"
+    },
+    "100F6A7C": {
+      "name": "Snow Witch Skirt",
+      "category": "Legs"
+    },
+    "1009770C": {
+      "name": "Prophet Trousers",
+      "category": "Legs"
+    },
+    "100DBCCC": {
+      "name": "Traveling Maiden Boots",
+      "category": "Legs"
+    },
+    "100DC49C": {
+      "name": "Finger Maiden Shoes",
+      "category": "Legs"
+    },
+    "100690DC": {
+      "name": "Sage Trousers",
+      "category": "Legs"
+    },
+    "100FDFAC": {
+      "name": "Gold Waistwrap",
+      "category": "Legs"
+    },
+    "100160BC": {
+      "name": "Perfumer Sarong",
+      "category": "Legs"
+    },
+    "100187CC": {
+      "name": "Traveler's Slops",
+      "category": "Legs"
+    },
+    "10083E8C": {
+      "name": "Depraved Perfumer Trousers",
+      "category": "Legs"
+    },
+    "100EA72C": {
+      "name": "Consort's Trousers",
+      "category": "Legs"
+    },
+    "1004950C": {
+      "name": "Fur Leggings",
+      "category": "Legs"
+    },
+    "100498F4": {
+      "name": "Shaman Leggings",
+      "category": "Legs"
+    },
+    "1007F06C": {
+      "name": "Godskin Apostle Trousers",
+      "category": "Legs"
+    },
+    "1008177C": {
+      "name": "Godskin Noble Trousers",
+      "category": "Legs"
+    },
+    "1004E32C": {
+      "name": "Sanguine Noble Waistcloth",
+      "category": "Legs"
+    },
+    "10009D6C": {
+      "name": "Leather Trousers",
+      "category": "Legs"
+    },
+    "10155DEC": {
+      "name": "Leather Boots",
+      "category": "Legs"
+    },
+    "100A3A5C": {
+      "name": "Warrior Greaves",
+      "category": "Legs"
+    },
+    "100B4BCC": {
+      "name": "Noble's Trousers",
+      "category": "Legs"
+    },
+    "100A616C": {
+      "name": "War Surgeon Trousers",
+      "category": "Legs"
+    },
+    "1003D1BC": {
+      "name": "Nomadic Merchant's Trousers",
+      "category": "Legs"
+    },
+    "100E31FC": {
+      "name": "Bandit Boots",
+      "category": "Legs"
+    },
+    "100D6EAC": {
+      "name": "Confessor Boots",
+      "category": "Legs"
+    },
+    "101CD7FC": {
+      "name": "Omenkiller Boots",
+      "category": "Legs"
+    },
+    "101BED9C": {
+      "name": "Foot Soldier Greaves",
+      "category": "Legs"
+    },
+    "100669CC": {
+      "name": "Vulgar Militia Greaves",
+      "category": "Legs"
+    },
+    "1004BC1C": {
+      "name": "Duelist Greaves",
+      "category": "Legs"
+    },
     "101E85AC": {
       "name": "Rotten Duelist Greaves",
       "category": "Legs"
     },
-    "101E88CC": {
-      "name": "Rotten Gravekeeper Cloak (Altered)",
-      "category": "Body"
+    "10046DFC": {
+      "name": "Nox Greaves",
+      "category": "Legs"
     },
-    "101EAB90": {
-      "name": "Mushroom Crown",
-      "category": "Head"
+    "100B24BC": {
+      "name": "Champion Gaiters",
+      "category": "Legs"
     },
-    "101ED2A0": {
-      "name": "Black Dumpling",
-      "category": "Head"
+    "1010CA0C": {
+      "name": "Chain Leggings",
+      "category": "Legs"
     },
-    "101EF9B0": {
-      "name": "Lazuli Robe",
-      "category": "Body"
+    "1019F1CC": {
+      "name": "Godrick Soldier Greaves",
+      "category": "Legs"
+    },
+    "101A18DC": {
+      "name": "Raya Lucarian Greaves",
+      "category": "Legs"
+    },
+    "101A66FC": {
+      "name": "Radahn Soldier Greaves",
+      "category": "Legs"
+    },
+    "101A3FEC": {
+      "name": "Leyndell Soldier Greaves",
+      "category": "Legs"
+    },
+    "101AB51C": {
+      "name": "Haligtree Greaves",
+      "category": "Legs"
+    },
+    "101A8E0C": {
+      "name": "Mausoleum Greaves",
+      "category": "Legs"
+    },
+    "1002E75C": {
+      "name": "Exile Greaves",
+      "category": "Legs"
+    },
+    "1000C47C": {
+      "name": "Kaiden Trousers",
+      "category": "Legs"
+    },
+    "100D479C": {
+      "name": "Land of Reeds Greaves",
+      "category": "Legs"
+    },
+    "100D4F6C": {
+      "name": "White Reed Greaves",
+      "category": "Legs"
+    },
+    "10024B1C": {
+      "name": "Ronin's Greaves",
+      "category": "Legs"
+    },
+    "100E590C": {
+      "name": "Eccentric's Breeches",
+      "category": "Legs"
+    },
+    "1003AAAC": {
+      "name": "Blue Silver Mail Skirt",
+      "category": "Legs"
+    },
+    "1005585C": {
+      "name": "Fire Monk Greaves",
+      "category": "Legs"
+    },
+    "10055C44": {
+      "name": "Blackflame Monk Greaves",
+      "category": "Legs"
+    },
+    "101054DC": {
+      "name": "Zamor Legwraps",
+      "category": "Legs"
+    },
+    "1002C04C": {
+      "name": "Black Knife Greaves",
+      "category": "Legs"
+    },
+    "100BC0FC": {
+      "name": "Malenia's Greaves",
+      "category": "Legs"
+    },
+    "1007060C": {
+      "name": "Elden Lord Greaves",
+      "category": "Legs"
+    },
+    "1016E48C": {
+      "name": "Knight Greaves",
+      "category": "Legs"
+    },
+    "100A134C": {
+      "name": "Vagabond Knight Greaves",
+      "category": "Legs"
+    },
+    "100EF54C": {
+      "name": "Carian Knight Greaves",
+      "category": "Legs"
+    },
+    "101B033C": {
+      "name": "Godrick Knight Greaves",
+      "category": "Legs"
+    },
+    "101B2A4C": {
+      "name": "Cuckoo Knight Greaves",
+      "category": "Legs"
+    },
+    "101B786C": {
+      "name": "Redmane Knight Greaves",
+      "category": "Legs"
+    },
+    "101ADC2C": {
+      "name": "Gelmir Knight Greaves",
+      "category": "Legs"
+    },
+    "101B515C": {
+      "name": "Leyndell Knight Greaves",
+      "category": "Legs"
+    },
+    "101BC68C": {
+      "name": "Haligtree Knight Greaves",
+      "category": "Legs"
+    },
+    "101B9F7C": {
+      "name": "Mausoleum Knight Greaves",
+      "category": "Legs"
+    },
+    "100C0F1C": {
+      "name": "Bloodhound Knight Greaves",
+      "category": "Legs"
+    },
+    "1005314C": {
+      "name": "Cleanrot Greaves",
+      "category": "Legs"
+    },
+    "100D208C": {
+      "name": "Raging Wolf Greaves",
+      "category": "Legs"
+    },
+    "1009EC3C": {
+      "name": "Hoslow's Greaves",
+      "category": "Legs"
+    },
+    "100928EC": {
+      "name": "Twinned Greaves",
+      "category": "Legs"
+    },
+    "1000EB8C": {
+      "name": "Drake Knight Greaves",
+      "category": "Legs"
+    },
+    "1002993C": {
+      "name": "Blaidd's Greaves",
+      "category": "Legs"
+    },
+    "1003357C": {
+      "name": "Briar Greaves",
+      "category": "Legs"
+    },
+    "100E801C": {
+      "name": "Fingerprint Greaves",
+      "category": "Legs"
+    },
+    "100A887C": {
+      "name": "Royal Remains Greaves",
+      "category": "Legs"
+    },
+    "100901DC": {
+      "name": "All-Knowing Greaves",
+      "category": "Legs"
+    },
+    "100446EC": {
+      "name": "Royal Knight Greaves",
+      "category": "Legs"
+    },
+    "100B99EC": {
+      "name": "Maliketh's Greaves",
+      "category": "Legs"
+    },
+    "10030E6C": {
+      "name": "Banished Knight Greaves",
+      "category": "Legs"
+    },
+    "1003839C": {
+      "name": "Night's Cavalry Greaves",
+      "category": "Legs"
+    },
+    "100BE80C": {
+      "name": "Veteran's Greaves",
+      "category": "Legs"
+    },
+    "100139AC": {
+      "name": "Scaled Greaves",
+      "category": "Legs"
+    },
+    "100AFDAC": {
+      "name": "Beast Champion Greaves",
+      "category": "Legs"
+    },
+    "10041FDC": {
+      "name": "Tree Sentinel Greaves",
+      "category": "Legs"
+    },
+    "1003F8CC": {
+      "name": "Malformed Dragon Greaves",
+      "category": "Legs"
+    },
+    "1008B3BC": {
+      "name": "Crucible Greaves",
+      "category": "Legs"
+    },
+    "10072D1C": {
+      "name": "Radahn's Greaves",
+      "category": "Legs"
+    },
+    "1009C52C": {
+      "name": "Lionel's Greaves",
+      "category": "Legs"
+    },
+    "1002240C": {
+      "name": "Bull-Goat Greaves",
+      "category": "Legs"
+    },
+    "100ECE3C": {
+      "name": "Omen Greaves",
+      "category": "Legs"
+    },
+    "10057F6C": {
+      "name": "Fire Prelate Greaves",
+      "category": "Legs"
     }
   },
   "ashesOfWar": {
@@ -4880,10 +4500,10 @@
       "name": "Black Knife Tiche"
     },
     "40031128": {
-      "name": "Banished Knight Oleg"
+      "name": "Banished Knight Oleg Ashes"
     },
     "40031510": {
-      "name": "Banished Knight Engvall"
+      "name": "Banished Knight Engvall Ashes"
     },
     "400318F8": {
       "name": "Fanged Imp Ashes"
@@ -4925,7 +4545,7 @@
       "name": "Putrid Corpse Ashes"
     },
     "40034BC0": {
-      "name": "Depraved Perfumer Carmaan"
+      "name": "Depraved Perfumer Carmaan Ashes"
     },
     "40034FA8": {
       "name": "Perfumer Tricia"
@@ -4946,7 +4566,7 @@
       "name": "Clayman Ashes"
     },
     "40036718": {
-      "name": "Cleanrot Knight Finlay"
+      "name": "Cleanrot Knight Finlay Ashes"
     },
     "40036B00": {
       "name": "Kindred of Rot Ashes"
@@ -4961,7 +4581,7 @@
       "name": "Fire Monk Ashes"
     },
     "40037AA0": {
-      "name": "Blackflame Monk Amon"
+      "name": "Blackflame Monk Amon Ashes"
     },
     "40037E88": {
       "name": "Man-Serpent Ashes"
@@ -5045,10 +4665,10 @@
       "name": "Haligtree Soldier Ashes"
     },
     "4003E800": {
-      "name": "Ancient Dragon Knight Kristoff"
+      "name": "Ancient Dragon Knight Kristoff Ashes"
     },
     "4003EBE8": {
-      "name": "Redmane Knight Ogha"
+      "name": "Redmane Knight Ogha Ashes"
     },
     "4003EFD0": {
       "name": "Lhutel the Headless"

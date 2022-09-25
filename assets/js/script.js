@@ -11,6 +11,9 @@ let pattern = new Uint8Array([
 let file_read = null;
 let inventory = null;
 let result = { worked: false, owned: null, "not-owned": null, counter: null };
+var all_items = null;
+var item_counter = null;
+var item_dict_template = null;
 
 fileSelector.addEventListener("change", (event) => {
   // no file selected to read
@@ -32,8 +35,21 @@ fileSelector.addEventListener("change", (event) => {
     }
     updateSlotDropdown(getNames(file_read));
     $("#slot_selector").on("change", function (e) {
-      let options = $("#slot_selector option:selected");
+      $("#setting_buttons").css("display", "block")
+      $("#calculate").css("display", "block")
+    });
+  };
+  reader.onerror = function (e) {
+    // error occurred
+    console.log("Error : " + e.type);
+  };
+  reader.readAsArrayBuffer(file);
+});
+
+function calculate(){
+  let options = $("#slot_selector option:selected");
       let selected_slot = options[0].value;
+      getJsonFiles();
       result = getOwnedAndNot(file_read, selected_slot);
       if (result["worked"]) {
         $("#owned").load("page_parts.html #owned_section", () => {
@@ -44,14 +60,54 @@ fileSelector.addEventListener("change", (event) => {
           });
         });
       }
-    });
-  };
-  reader.onerror = function (e) {
-    // error occurred
-    console.log("Error : " + e.type);
-  };
-  reader.readAsArrayBuffer(file);
-});
+}
+
+function getJsonFiles() {
+  $.ajax({
+    url: "assets/json/all_items.json",
+    async: false,
+    dataType: "json",
+    success: function (data) {
+      all_items = { ...data };
+      if ($("#altered-armor").is(":checked")) {
+        $.ajax({
+          url: "assets/json/altered_armor.json",
+          async: false,
+          dataType: "json",
+          success: function (data2) {
+            all_items.armor = { ...all_items.armor, ...data2 };
+          },
+        });
+      }
+      if ($("#unobtainable-items").is(":checked")) {
+        $.ajax({
+          url: "assets/json/unobtainable.json",
+          async: false,
+          dataType: "json",
+          success: function (data2) {
+            all_items.armor = { ...all_items.armor, ...data2 };
+          },
+        });
+      }
+    },
+  });
+  $.ajax({
+    url: "assets/json/item_dict_template.json",
+    async: false,
+    dataType: "json",
+    success: function (data) {
+      item_dict_template = { ...data };
+    },
+  });
+  $.ajax({
+    url: "assets/json/item_counter.json",
+    async: false,
+    dataType: "json",
+    success: function (data) {
+      item_counter = { ...data };
+    },
+  });
+}
 
 function get_slot_ls(dat) {
   let slot1 = dat.subarray(0x00000310, 0x0028030f + 1);
@@ -125,10 +181,8 @@ function getOwnedAndNot(file_read, selected_slot) {
     let id_list = split(inventory, 16);
     id_list.forEach((raw_id, index) => (id_list[index] = getIdReversed(raw_id).toUpperCase()));
 
-    let owned_items = JSON.parse(localStorage.getItem("item_dict_template"));
-    let not_owned_items = JSON.parse(localStorage.getItem("item_dict_template"));
-    let all_items = JSON.parse(localStorage.getItem("all_items"));
-    let item_counter = JSON.parse(localStorage.getItem("item_counter"));
+    let owned_items = JSON.parse(JSON.stringify(item_dict_template));
+    let not_owned_items = JSON.parse(JSON.stringify(item_dict_template));
 
     id_list.forEach((id) => {
       if (id in all_items["armament"]) {
@@ -294,7 +348,10 @@ function addFraction() {
   item_counter = result["counter"];
   ["owned", "not-owned"].forEach((owned) => {
     for (let item_type in item_counter) {
-      $(`#${owned}-${item_type}`).prev().find("h3").append(`<span style="float: right">${item_counter[item_type]["summary"][owned]}/${item_counter[item_type]["summary"]["total"]}</span>`);
+      $(`#${owned}-${item_type}`)
+        .prev()
+        .find("h3")
+        .append(`<span style="float: right">${item_counter[item_type]["summary"][owned]}/${item_counter[item_type]["summary"]["total"]}</span>`);
     }
   });
 }

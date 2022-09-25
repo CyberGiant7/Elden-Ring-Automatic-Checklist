@@ -55,6 +55,21 @@
               </div>
             </li>
             <li style="display: none" id="slot_select"></li>
+            <li style="display: none; text-align: center;" id="setting_buttons" >
+              <div class="btn-group" role="group" data-bs-toggle="buttons">
+                <label class="btn btn-dark" style="margin: 3px;">
+                  <input type="checkbox" class="me-2" name="altered_armor" id="altered-armor" autocomplete="off" /> Show altered armor
+                </label>
+                <label class="btn btn-dark" style="margin: 3px;">
+                  <input type="checkbox" class="me-2" name="unobtainable-items" id="unobtainable-items" autocomplete="off" /> Show unobtainable items
+                </label>
+              </div>
+            </li>
+            <li style="display: none;" id="calculate">
+              <div class="d-grid gap-2" style="margin: 10px">
+                <button type="button" name="calculate" class="btn btn-dark" onclick="calculate()">Calculate</button>
+              </div>
+            </li>
           </ul>
         </div>
 
@@ -102,7 +117,7 @@
           <a class="text-white" href="https://mdbootstrap.com/">CyberGiant</a>
         </div>
         <!-- Copyright -->
-      </footer>  
+      </footer>
     </div>
     <button type="button" class="btn btn-dark btn-floating btn-lg btn-outline-light" id="btn-back-to-top" style="width: 100px">
       <i class="fas fa-arrow-up"></i>
@@ -116,19 +131,8 @@
     <script src="https://kit.fontawesome.com/652c1efac6.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
-               
-               
-    <script type="module">
-      import all_items from "./assets/json/all_items.json" assert { type: "json" };
-      import item_dict_template from "./assets/json/item_dict_template.json" assert { type: "json" };
-      import item_counter from "./assets/json/item_counter.json" assert { type: "json" };
 
-      function loadJson() {
-        localStorage.setItem("all_items", JSON.stringify(all_items));
-        localStorage.setItem("item_dict_template", JSON.stringify(item_dict_template));
-        localStorage.setItem("item_counter", JSON.stringify(item_counter));
-      }
-      loadJson();
+    <script>     
       let bg_filenames = ["bg0.jpg", "bg1.jpg", "bg2.png", "bg3.jpg", "bg4.jpg", "bg5.png"];
       let r = Math.floor(Math.random() * 6);
       document.getElementsByTagName("body")[0].style.backgroundImage = "url(assets/img/" + bg_filenames[r];
