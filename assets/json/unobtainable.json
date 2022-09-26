@@ -1,21 +1,28 @@
 {
-  "10094ED0": { "name": "Ragged Hat", "category": "Head" },
-  "100952B8": { "name": "Ragged Hat (Altered)", "category": "Head" },
-  "100AAE60": { "name": "Brave's Cord Circlet", "category": "Head" },
-  "100AB248": { "name": "Brave's Leather Helm", "category": "Head" },
-  "100E09C0": { "name": "Grass Hair Ornament", "category": "Head" },
-  "10094F34": { "name": "Ragged Armor", "category": "Body" },
-  "1009531C": { "name": "Ragged Armor (Altered)", "category": "Body" },
-  "100AAEC4": { "name": "Brave's Battlewear", "category": "Body" },
-  "100AB630": { "name": "Brave's Battlewear (Altered)", "category": "Body" },
-  "101DC194": { "name": "Millicent's Robe", "category": "Body" },
-  "101E0FB4": { "name": "Millicent's Tunic", "category": "Body" },
-  "10094F98": { "name": "Ragged Gloves", "category": "Arms" },
-  "100AAF28": { "name": "Brave's Bracer", "category": "Arms" },
-  "101DC1F8": { "name": "Millicent's Gloves", "category": "Arms" },
-  "101E1018": { "name": "Golden Prosthetic", "category": "Arms" },
-  "10094FFC": { "name": "Ragged Loincloth", "category": "Legs" },
-  "100AAF8C": { "name": "Brave's Legwraps", "category": "Legs" },
-  "101D743C": { "name": "Deathbed Smalls", "category": "Legs" },
-  "101DC25C": { "name": "Millicent's Boots", "category": "Legs" }
+  "armor": {
+    "10094ED0": { "name": "Ragged Hat", "category": "Head" },
+    "100952B8": { "name": "Ragged Hat (Altered)", "category": "Head" },
+    "100AAE60": { "name": "Brave's Cord Circlet", "category": "Head" },
+    "100AB248": { "name": "Brave's Leather Helm", "category": "Head" },
+    "100E09C0": { "name": "Grass Hair Ornament", "category": "Head" },
+    "10094F34": { "name": "Ragged Armor", "category": "Body" },
+    "1009531C": { "name": "Ragged Armor (Altered)", "category": "Body" },
+    "100AAEC4": { "name": "Brave's Battlewear", "category": "Body" },
+    "100AB630": { "name": "Brave's Battlewear (Altered)", "category": "Body" },
+    "101DC194": { "name": "Millicent's Robe", "category": "Body" },
+    "101E0FB4": { "name": "Millicent's Tunic", "category": "Body" },
+    "10094F98": { "name": "Ragged Gloves", "category": "Arms" },
+    "100AAF28": { "name": "Brave's Bracer", "category": "Arms" },
+    "101DC1F8": { "name": "Millicent's Gloves", "category": "Arms" },
+    "101E1018": { "name": "Golden Prosthetic", "category": "Arms" },
+    "10094FFC": { "name": "Ragged Loincloth", "category": "Legs" },
+    "100AAF8C": { "name": "Brave's Legwraps", "category": "Legs" },
+    "101D743C": { "name": "Deathbed Smalls", "category": "Legs" },
+    "101DC25C": { "name": "Millicent's Boots", "category": "Legs" }
+  },
+  "talisman": {
+    "200017D4": {
+      "name": "Entwining Umbilical Cord"
+    }
+  }
 }

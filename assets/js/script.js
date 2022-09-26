@@ -85,7 +85,8 @@ function getJsonFiles() {
           async: false,
           dataType: "json",
           success: function (data2) {
-            all_items.armor = { ...all_items.armor, ...data2 };
+            all_items.armor = { ...all_items.armor, ...data2.armor };
+            all_items.talisman = { ...all_items.talisman, ...data2.talisman };
           },
         });
       }
