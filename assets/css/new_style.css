@@ -41,7 +41,7 @@ div {
   color: whitesmoke;
 }
 
-h4{
+h4 {
   text-align: center;
   margin-top: 10pt;
   background-color: #212529;
@@ -87,7 +87,8 @@ html {
   padding: 25px;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   padding: 1%;
 }
@@ -148,7 +149,7 @@ button[aria-expanded="true"] h3::before {
   padding-right: 30px;
 }
 
-.main {
+.container-block {
   padding-top: 100px;
   background: rgba(44, 47, 63, 0.9);
   max-width: 1200px;
@@ -164,10 +165,9 @@ button[aria-expanded="true"] h3::before {
   display: none;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #c19d53;
 }
-
 
 @media (max-width: 1200px) {
   [class*="col-"] {
@@ -176,7 +176,13 @@ button[aria-expanded="true"] h3::before {
     padding: 3px;
   }
 
-  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
     width: 100%;
@@ -190,6 +196,15 @@ button[aria-expanded="true"] h3::before {
     justify-content: space-evenly;
   }
 }
+.sidebar, #sidebar-button {
+  display: none;
+}
+@media (min-width: 992px) {
+  .sidebar, #sidebar-button {
+    display: block;
+    max-width: 255px;
+  }
+}
 
 @media (min-width: 576px) {
   .main {
@@ -197,4 +212,32 @@ button[aria-expanded="true"] h3::before {
   }
 }
 
+.button-style1 {
+  background-color: white;
+  border-radius: 100px;
+  border-width: 0px;
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  width: -webkit-fill-available;
+  justify-content: center;
+  align-items: center;
+}
+.button-style1:hover{
+  background-color: #c19d53;
+  border-radius: 100px;
+}
+
+.button-style1:active{
+  background-color: #c19d53;
+}
+.button-style1:focus{
+  background-color: #c19d53;
+}
+
+.a-style1 {
+  width: min-content;
+  padding: 0;
+  color: whitesmoke;
+}
 

@@ -23,101 +23,160 @@
 
     gtag("config", "G-VP65ZL3DNK");
   </script>
-
   <body>
-    <div class="container main">
-      <img src="assets/img/logo.png" alt="logo" style="width: inherit" />
-      <hr />
-      <div class="container">
-        <h3>Save manager</h3>
-        <p>
-          Welcome! I'm <a href="https://github.com/CyberGiant7" target="_blank">CyberGiant</a> this site is made to analyze the inventory of an elden
-          ring save to automatically compile a checklist.
-        </p>
-        <p>
-          <strong>To find Elden Ring save:</strong> <br />You will find your Elden Ring save file in the your user directory. Right-click the folder
-          icon on your quick bar and click 'File Explorer'. Then select 'This PC' from the menu on the left of the window and click through the
-          director until you reach this location: <br />
-          <a href="">C:\Users\[username]\AppData\Roaming\EldenRing</a>.
-        </p>
-        <p>
-          Once here, you should see a file with a bunch of random-looking numbers. That number is your 64-bit Steam ID, in case you were wondering.<br />
-          Click into this folder and you should see a file or multiple that end in .sl2. This is your save file.
-        </p>
-        <p>This site <a style="font-weight: bold">does not alter Elden Ring saves in any way</a>, as the file is opened in read-only mode.</p>
-        <div>
-          <ul>
-            <li>
-              <div>
-                <i class="icofont-rounded-right"></i>
-                <label class="form-label"><strong>Upload Elden Ring save file</strong></label>
-                <input class="form-control" type="file" id="savefile" accept=".sl2" />
-              </div>
-            </li>
-            <li style="display: none" id="slot_select"></li>
-            <li style="display: none; text-align: center;" id="setting_buttons" >
-              <div class="btn-group" role="group" data-bs-toggle="buttons">
-                <label class="btn btn-dark" style="margin: 3px;">
-                  <input type="checkbox" class="me-2" name="altered_armor" id="altered-armor" autocomplete="off" /> Show altered armor
-                </label>
-                <label class="btn btn-dark" style="margin: 3px;">
-                  <input type="checkbox" class="me-2" name="unobtainable-items" id="unobtainable-items" autocomplete="off" /> Show unobtainable items
-                </label>
-              </div>
-            </li>
-            <li style="display: none;" id="calculate">
-              <div class="d-grid gap-2" style="margin: 10px">
-                <button type="button" name="calculate" class="btn btn-dark" onclick="calculate()">Calculate</button>
-              </div>
-            </li>
-          </ul>
-        </div>
+    <div class="container" style="display: flex">
+      <div class="container container-block me-lg-4 me-sm-0" id="main">
+        <img src="assets/img/logo.png" alt="logo" style="width: inherit" />
+        <hr />
+        <div class="container">
+          <div style="display: flex; justify-content: space-between">
+            <div>
+              <h3>Elden Ring save analyzer</h3>
+            </div>
+            <div>
+              <button id="sidebar-button" class="btn button-style1" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+          <p>
+            Welcome! I'm <a href="https://github.com/CyberGiant7" target="_blank">CyberGiant</a> this site is made to analyze the inventory of an
+            elden ring save to automatically compile a checklist.
+          </p>
+          <p>
+            <strong>To find Elden Ring save:</strong> <br />You will find your Elden Ring save file in the your user directory. Right-click the folder
+            icon on your quick bar and click 'File Explorer'. Then select 'This PC' from the menu on the left of the window and click through the
+            director until you reach this location: <br />
+            <a href="">C:\Users\[username]\AppData\Roaming\EldenRing</a>.
+          </p>
+          <p>
+            Once here, you should see a file with a bunch of random-looking numbers. That number is your 64-bit Steam ID, in case you were
+            wondering.<br />
+            Click into this folder and you should see a file or multiple that end in .sl2. This is your save file.
+          </p>
+          <p>This site <a style="font-weight: bold">does not alter Elden Ring saves in any way</a>, as the file is opened in read-only mode.</p>
+          <div>
+            <ul>
+              <li>
+                <div>
+                  <i class="icofont-rounded-right"></i>
+                  <label class="form-label"><strong>Upload Elden Ring save file</strong></label>
+                  <input class="form-control" type="file" id="savefile" accept=".sl2" />
+                </div>
+              </li>
+              <li style="display: none" id="slot_select"></li>
+              <li style="display: none; text-align: center" id="setting_buttons">
+                <div class="btn-group" role="group" data-bs-toggle="buttons">
+                  <label class="btn btn-dark" style="margin: 3px">
+                    <input type="checkbox" class="me-2" name="altered_armor" id="altered-armor" autocomplete="off" /> Show altered armor
+                  </label>
+                  <label class="btn btn-dark" style="margin: 3px">
+                    <input type="checkbox" class="me-2" name="unobtainable-items" id="unobtainable-items" autocomplete="off" /> Show unobtainable
+                    items
+                  </label>
+                </div>
+              </li>
+              <li style="display: none" id="calculate">
+                <div class="d-grid gap-2" style="margin: 10px">
+                  <button type="button" name="calculate" class="btn btn-dark" onclick="calculate()">Calculate</button>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-        <div class="row" id="collapse_button1" style="display: none">
-          <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#owned">
-            <h2>Owned Items</h2>
-          </button>
+          <div class="row" id="collapse_button1" style="display: none">
+            <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#owned">
+              <h2>Owned Items</h2>
+            </button>
+          </div>
+          <div class="collapse" id="owned"></div>
+          <div class="row" id="collapse_button2" style="display: none">
+            <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#not-owned">
+              <h2>Not Owned Items</h2>
+            </button>
+          </div>
+          <div class="collapse" id="not-owned"></div>
         </div>
-        <div class="collapse" id="owned"></div>
-        <div class="row" id="collapse_button2" style="display: none">
-          <button class="btn btn-dark button-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#not-owned">
-            <h2>Not Owned Items</h2>
-          </button>
-        </div>
-        <div class="collapse" id="not-owned"></div>
+        <hr style="margin-top: 100px" />
+        <footer class="text-center">
+          <!-- Grid container -->
+          <div class="container pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- E-mail -->
+              <a class="btn btn-outline-light btn-floating m-1" href="mailto:cybergiant7@gmail.com" role="button" target="_blank"
+                ><i class="fas fa-envelope"></i
+              ></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/leonardo-dessi/" role="button" target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/CyberGiant7" role="button" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2022 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">CyberGiant</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
       </div>
-      <hr style="margin-top: 100px" />
-      <footer class="text-center">
-        <!-- Grid container -->
-        <div class="container pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- E-mail -->
-            <a class="btn btn-outline-light btn-floating m-1" href="mailto:cybergiant7@gmail.com" role="button" target="_blank"
-              ><i class="fas fa-envelope"></i
-            ></a>
 
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/leonardo-dessi/" role="button" target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
+      <div id="sidebar" class="sidebar collapse-horizontal show">
+        <div class="container-block">
+          <div class="row" style="display: flex; flex-wrap: nowrap; width: fit-content">
+            <img src="assets/img/CypherRing-logo.png" alt="" style="width: 75px; border-radius: 100%" />
+            <a class="a-style1" href="https://www.reddit.com/r/CypherRing/" target="_blank">r/CypherRing</a>
+          </div>
+          <p>Join to Cypher Ring! The player summoning and trading subreddit for the videogame Elden Ring.</p>
+          <hr />
+          <div style="display: flex; justify-content: space-between">
+            <div>
+              <strong id="cypherring-sub"></strong>
+              <p style="margin: 0px; font-size: 12px">Tarnished</p>
+            </div>
+            <div>
+              <strong id="cypherring-online"></strong>
+              <p style="margin: 0px; font-size: 12px">In The Lands Between</p>
+            </div>
+          </div>
 
-            <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/CyberGiant7" role="button" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
+          <hr />
+          <a class="btn button-style1" href="https://www.reddit.com/r/CypherRing/" target="_blank">Join</a>
         </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-          © 2022 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">CyberGiant</a>
+        <div class="container-block" style="margin-top: 10px">
+          <div class="row" style="display: flex; flex-wrap: nowrap; width: fit-content">
+            <img src="assets/img/EldenRingDiscussion-logo.png" alt="" style="width: 75px; border-radius: 100%" />
+            <a href="https://www.reddit.com/r/eldenringdiscussion" target="_blank" class="a-style1">r/eldenringdiscussion</a>
+          </div>
+          <p>
+            Join to Elden Ring Discussion! A subreddit where you can chat about the game, the secrets, the strategies, the builds, and everything else
+            Elden Ring.
+          </p>
+          <hr />
+          <div style="display: flex; justify-content: space-between">
+            <div>
+              <strong id="erdiscussion-sub"></strong>
+              <p style="margin: 0px; font-size: 12px">Tarnished</p>
+            </div>
+            <div>
+              <strong id="erdiscussion-online"></strong>
+              <p style="margin: 0px; font-size: 12px">In The Lands Between</p>
+            </div>
+          </div>
+          <hr />
+          <a class="btn button-style1" href="https://www.reddit.com/r/eldenringdiscussion" target="_blank">Join</a>
         </div>
-        <!-- Copyright -->
-      </footer>
+      </div>
     </div>
     <button type="button" class="btn btn-dark btn-floating btn-lg btn-outline-light" id="btn-back-to-top" style="width: 100px">
       <i class="fas fa-arrow-up"></i>
@@ -132,10 +191,32 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
 
-    <script>     
+    <script>
+      function getFromRedditApi(id, url, field) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", url);
+
+        xhr.setRequestHeader("Accept", "application/json");
+
+        let sub0;
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4) {
+            sub0 = JSON.parse(xhr.response)["data"][field];
+            $(id).text(nFormatter(sub0, 1));
+          }
+        };
+
+        xhr.send();
+      }
+    </script>
+    <script>
       let bg_filenames = ["bg0.jpg", "bg1.jpg", "bg2.png", "bg3.jpg", "bg4.jpg", "bg5.png"];
       let r = Math.floor(Math.random() * 6);
       document.getElementsByTagName("body")[0].style.backgroundImage = "url(assets/img/" + bg_filenames[r];
+      getFromRedditApi("#cypherring-sub", "https://www.reddit.com/r/CypherRing/about.json", "subscribers");
+      getFromRedditApi("#cypherring-online", "https://www.reddit.com/r/CypherRing/about.json", "active_user_count");
+      getFromRedditApi("#erdiscussion-sub", "https://www.reddit.com/r/eldenringdiscussion/about.json", "subscribers");
+      getFromRedditApi("#erdiscussion-online", "https://www.reddit.com/r/eldenringdiscussion/about.json", "active_user_count");
     </script>
   </body>
 </html>
