@@ -44,7 +44,6 @@ With this tool you can:
 - View all not owned **Weapons**, **Armor**, **Talisman**, **Spells**, **Ashes of War** and **Spirit Ashes**
 - All items are **categorized by type**. For example, weapons are divided into daggers, straight swords, axes,...
 - All items have a link that redirects directly to the [wiki page](https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki), with all the information about obtaining the item and various stats.
-- Use all the game image in [this folder](assets/img/) as if it were an API, for your purposes. All the pictures have `1024 x 1024` resolution.
 
 ## Usage
 

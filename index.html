@@ -26,7 +26,7 @@
   <body>
     <div class="container" style="display: flex">
       <div class="container container-block me-lg-4 me-sm-0" id="main">
-        <img src="assets/img/logo.png" alt="logo" style="width: inherit" />
+        <img src="assets/img/logo.webp" alt="logo" style="width: inherit" />
         <hr />
         <div class="container">
           <div style="display: flex; justify-content: space-between">
@@ -134,7 +134,7 @@
       <div id="sidebar" class="sidebar collapse-horizontal show">
         <div class="container-block">
           <div class="row" style="display: flex; flex-wrap: nowrap; width: fit-content">
-            <img src="assets/img/CypherRing-logo.png" alt="" style="width: 75px; border-radius: 100%" />
+            <img src="assets/img/CypherRing-logo.webp" alt="" style="width: 75px; border-radius: 100%" />
             <a class="a-style1" href="https://www.reddit.com/r/CypherRing/" target="_blank">r/CypherRing</a>
           </div>
           <p>Join to Cypher Ring! The player summoning and trading subreddit for the videogame Elden Ring.</p>
@@ -155,7 +155,7 @@
         </div>
         <div class="container-block" style="margin-top: 10px">
           <div class="row" style="display: flex; flex-wrap: nowrap; width: fit-content">
-            <img src="assets/img/EldenRingDiscussion-logo.png" alt="" style="width: 75px; border-radius: 100%" />
+            <img src="assets/img/EldenRingDiscussion-logo.webp" alt="" style="width: 75px; border-radius: 100%" />
             <a href="https://www.reddit.com/r/eldenringdiscussion" target="_blank" class="a-style1">r/eldenringdiscussion</a>
           </div>
           <p>
@@ -210,9 +210,8 @@
       }
     </script>
     <script>
-      let bg_filenames = ["bg0.jpg", "bg1.jpg", "bg2.png", "bg3.jpg", "bg4.jpg", "bg5.png"];
       let r = Math.floor(Math.random() * 6);
-      document.getElementsByTagName("body")[0].style.backgroundImage = "url(assets/img/" + bg_filenames[r];
+      document.getElementsByTagName("body")[0].style.backgroundImage = `url(assets/img/bg${r}.webp`;
       getFromRedditApi("#cypherring-sub", "https://www.reddit.com/r/CypherRing/about.json", "subscribers");
       getFromRedditApi("#cypherring-online", "https://www.reddit.com/r/CypherRing/about.json", "active_user_count");
       getFromRedditApi("#erdiscussion-sub", "https://www.reddit.com/r/eldenringdiscussion/about.json", "subscribers");

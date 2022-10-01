@@ -108,7 +108,7 @@ div.card {
 }
 
 img.lazy.item-img {
-  background-image: url(../img/back_item.png);
+  background-image: url(../img/back_item.webp);
   background-size: cover;
   max-width: 150px;
   padding: 5px;

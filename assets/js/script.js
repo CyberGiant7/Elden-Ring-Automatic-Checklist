@@ -297,7 +297,7 @@ function getCard(item_name, category_name) {
 <div class="card" title="${item_name}" > 
 <img alt="${item_name} img" class="lazy item-img card-img"
            src="https://acegif.com/wp-content/uploads/loading-25.gif"
-					 data-src="./assets/img/${category_name}/${item_name.replace(/[\:]+/g, "")}.png"
+					 data-src="./assets/img/${category_name}/${item_name.replace(/[\:]+/g, "")}.webp"
 					 title="${item_name}">
 <br>
 <p class="card-text">${item_name}</p>
