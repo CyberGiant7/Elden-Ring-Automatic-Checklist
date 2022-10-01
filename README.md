@@ -1,5 +1,5 @@
 <p align="center" style="font-size: 2em; font-weight: bold;">
-   <img align="center" src="./assets/img/logo.png" />
+   <img align="center" src="./assets/img/logo.webp" />
 </p>
 <div align="center">
 
