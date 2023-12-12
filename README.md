@@ -45,9 +45,9 @@ With this tool you can:
 - All items are **categorized by type**. For example, weapons are divided into daggers, straight swords, axes,...
 - All items have a link that redirects directly to the [wiki page](https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki), with all the information about obtaining the item and various stats.
 
-## Usage
+## Usage/Locating Elden Ring Save File
 
-[Video Tutorial](https://user-images.githubusercontent.com/81624394/191132915-b05f35a4-fbe2-4b9c-bc4e-fbc7c7788783.mp4)
+[Video Tutorial](https://github.com/tmpurcell/Elden-Ring-Automatic-Checklist/assets/47579978/d8833cff-2310-4b2f-80bf-7ad4cbed81fb)
 
 ## Support
 
