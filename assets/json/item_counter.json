@@ -345,5 +345,61 @@
       "not-owned": 0,
       "total": 0
     }
+  },
+  "bosses": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "graces": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "cookbooks": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "bell_bearings": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "whetblades": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "tools": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "gestures": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
+  },
+  "crystal_tears": {
+    "summary": {
+      "owned": 0,
+      "not-owned": 0,
+      "total": 0
+    }
   }
-}
+}

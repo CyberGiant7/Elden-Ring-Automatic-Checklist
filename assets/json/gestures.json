@@ -1,0 +1,150 @@
+{
+    "gestures": {
+        "40002329": {
+            "name": "Polite Bow"
+        },
+        "40002330": {
+            "name": "Casual Greeting"
+        },
+        "40002331": {
+            "name": "Strength!"
+        },
+        "40002332": {
+            "name": "As You Wish"
+        },
+        "40002338": {
+            "name": "Calm Down!"
+        },
+        "40002339": {
+            "name": "Nod In Thought"
+        },
+        "40002340": {
+            "name": "Fire Spur Me"
+        },
+        "40002342": {
+            "name": "Bravo!"
+        },
+        "40002344": {
+            "name": "Triumphant Delight"
+        },
+        "40002345": {
+            "name": "Fancy Spin"
+        },
+        "40002346": {
+            "name": "Finger Snap"
+        },
+        "40002348": {
+            "name": "Patches' Crouch"
+        },
+        "40002349": {
+            "name": "Crossed Legs"
+        },
+        "40002350": {
+            "name": "What Do You Want?"
+        },
+        "40002351": {
+            "name": "Prayer"
+        },
+        "40002352": {
+            "name": "Desperate Prayer"
+        },
+        "40002353": {
+            "name": "Rapture"
+        },
+        "40002355": {
+            "name": "Erudition"
+        },
+        "40002356": {
+            "name": "Outer Order"
+        },
+        "40002357": {
+            "name": "Inner Order"
+        },
+        "40002358": {
+            "name": "Golden Order Totality"
+        },
+        "40002359": {
+            "name": "The Ring"
+        },
+        "4000235A": {
+            "name": "The Ring (Co-op)"
+        },
+        "4000232A": {
+            "name": "My Thanks"
+        },
+        "4000232B": {
+            "name": "Curtsy"
+        },
+        "4000232C": {
+            "name": "Reverential Bow"
+        },
+        "4000232D": {
+            "name": "My Lord"
+        },
+        "4000233A": {
+            "name": "Extreme Repentance"
+        },
+        "4000233B": {
+            "name": "Grovel For Mercy"
+        },
+        "4000233D": {
+            "name": "Heartening Cry"
+        },
+        "4000233E": {
+            "name": "By My Sword"
+        },
+        "4000233F": {
+            "name": "Hoslow's Oath"
+        },
+        "4000234B": {
+            "name": "Sitting Sideways"
+        },
+        "4000234C": {
+            "name": "Dozing Cross-Legged"
+        },
+        "4000234D": {
+            "name": "Spread Out"
+        },
+        "4000234F": {
+            "name": "Balled Up"
+        }
+    },
+    "default": {
+        "40002333": {
+            "name": "Point Forwards"
+        },
+        "40002334": {
+            "name": "Point Upwards"
+        },
+        "40002335": {
+            "name": "Point Downwards"
+        },
+        "40002337": {
+            "name": "Wait!"
+        },
+        "4000232F": {
+            "name": "Wave"
+        },
+        "40002336": {
+            "name": "Beckon"
+        },
+        "4000232E": {
+            "name": "Warm Welcome"
+        },
+        "40002343": {
+            "name": "Jump For Joy"
+        },
+        "4000233C": {
+            "name": "Rallying Cry"
+        },
+        "40002328": {
+            "name": "Bow"
+        },
+        "4000234A": {
+            "name": "Rest"
+        },
+        "40002347": {
+            "name": "Dejection"
+        }
+    }
+}

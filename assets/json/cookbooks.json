@@ -1,0 +1,181 @@
+{
+    "cookbooks": {
+        "67000": {
+            "name": "Nomadic warrior's Cookbook [1]"
+        },
+        "67110": {
+            "name": "Nomadic warrior's Cookbook [2]"
+        },
+        "67010": {
+            "name": "Nomadic Warrior's Cookbook [3]"
+        },
+        "67800": {
+            "name": "Nomadic Warrior's Cookbook [4]"
+        },
+        "67830": {
+            "name": "Nomadic Warrior's Cookbook [5]"
+        },
+        "67020": {
+            "name": "Nomadic Warrior's Cookbook [6]"
+        },
+        "67050": {
+            "name": "Nomadic Warrior's Cookbook [7]"
+        },
+        "67880": {
+            "name": "Nomadic Warrior's Cookbook [8]"
+        },
+        "67430": {
+            "name": "Nomadic Warrior's Cookbook [9]"
+        },
+        "67030": {
+            "name": "Nomadic Warrior's Cookbook [10]"
+        },
+        "67220": {
+            "name": "Nomadic Warrior's Cookbook [11]"
+        },
+        "67060": {
+            "name": "Nomadic Warrior's Cookbook [12]"
+        },
+        "67080": {
+            "name": "Nomadic Warrior's Cookbook [13]"
+        },
+        "67870": {
+            "name": "Nomadic Warrior's Cookbook [14]"
+        },
+        "67900": {
+            "name": "Nomadic Warrior's Cookbook [15]"
+        },
+        "67290": {
+            "name": "Nomadic Warrior's Cookbook [16]"
+        },
+        "67100": {
+            "name": "Nomadic Warrior's Cookbook [17]"
+        },
+        "67270": {
+            "name": "Nomadic Warrior's Cookbook [18]"
+        },
+        "67070": {
+            "name": "Nomadic Warrior's Cookbook [19]"
+        },
+        "67230": {
+            "name": "Nomadic Warrior's Cookbook [20]"
+        },
+        "67120": {
+            "name": "Nomadic Warrior's Cookbook [21]"
+        },
+        "67890": {
+            "name": "Nomadic Warrior's Cookbook [22]"
+        },
+        "67090": {
+            "name": "Nomadic Warrior's Cookbook [23]"
+        },
+        "67910": {
+            "name": "Nomadic Warrior's Cookbook [24]"
+        },
+        "67200": {
+            "name": "Armorer's Cookbook [1]"
+        },
+        "67210": {
+            "name": "Armorer's Cookbook [2]"
+        },
+        "67280": {
+            "name": "Armorer's Cookbook [3]"
+        },
+        "67260": {
+            "name": "Armorer's Cookbook [4]"
+        },
+        "67310": {
+            "name": "Armorer's Cookbook [5]"
+        },
+        "67300": {
+            "name": "Armorer's Cookbook [6]"
+        },
+        "67250": {
+            "name": "Armorer's Cookbook [7]"
+        },
+        "67410": {
+            "name": "Glintstone Craftsman's Cookbook [1]"
+        },
+        "67450": {
+            "name": "Glintstone Craftsman's Cookbook [2]"
+        },
+        "67480": {
+            "name": "Glintstone Craftsman's Cookbook [3]"
+        },
+        "67400": {
+            "name": "Glintstone Craftsman's Cookbook [4]"
+        },
+        "67420": {
+            "name": "Glintstone Craftsman's Cookbook [5]"
+        },
+        "67460": {
+            "name": "Glintstone Craftsman's Cookbook [6]"
+        },
+        "67470": {
+            "name": "Glintstone Craftsman's Cookbook [7]"
+        },
+        "67440": {
+            "name": "Glintstone Craftsman's Cookbook [8]"
+        },
+        "67610": {
+            "name": "Missionary's Cookbook [1]"
+        },
+        "67600": {
+            "name": "Missionary's Cookbook [2]"
+        },
+        "67650": {
+            "name": "Missionary's Cookbook [3]"
+        },
+        "67640": {
+            "name": "Missionary's Cookbook [4]"
+        },
+        "67630": {
+            "name": "Missionary's Cookbook [5]"
+        },
+        "67130": {
+            "name": "Missionary's Cookbook [6]"
+        },
+        "68230": {
+            "name": "Missionary's Cookbook [7]"
+        },
+        "68000": {
+            "name": "Ancient Dragon Apostle's Cookbook [1]"
+        },
+        "68010": {
+            "name": "Ancient Dragon Apostle's Cookbook [2]"
+        },
+        "68030": {
+            "name": "Ancient Dragon Apostle's Cookbook [3]"
+        },
+        "68020": {
+            "name": "Ancient Dragon Apostle's Cookbook [4]"
+        },
+        "67840": {
+            "name": "Perfumer's Cookbook [1]"
+        },
+        "67850": {
+            "name": "Perfumer's Cookbook [2]"
+        },
+        "67860": {
+            "name": "Perfumer's Cookbook [3]"
+        },
+        "67920": {
+            "name": "Perfumer's Cookbook [4]"
+        },
+        "68200": {
+            "name": "Fevor's Cookbook [1]"
+        },
+        "68220": {
+            "name": "Fevor's Cookbook [2]"
+        },
+        "68210": {
+            "name": "Fevor's Cookbook [3]"
+        },
+        "68400": {
+            "name": "Frenzied's Cookbook [1]"
+        },
+        "68410": {
+            "name": "Frenzied's Cookbook [2]"
+        }
+    }
+}

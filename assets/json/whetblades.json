@@ -1,0 +1,22 @@
+{
+    "whetblades": {
+        "60130": {
+            "name": "Whetstone Knife"
+        },
+        "65610": {
+            "name": "Iron Whetblade"
+        },
+        "65640": {
+            "name": "Red-Hot Whetblade"
+        },
+        "65660": {
+            "name": "Sanctified Whetblade"
+        },
+        "65680": {
+            "name": "Glintstone Whetblade"
+        },
+        "65700": {
+            "name": "Black Whetblade"
+        }
+    }
+}

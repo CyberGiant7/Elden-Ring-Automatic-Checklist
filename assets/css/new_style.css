@@ -117,6 +117,20 @@ img.lazy.item-img {
   font: 400 normal 20px "Agmena Pro Regular";
 }
 
+.grace-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  padding: 10px 8px;
+  text-align: center;
+}
+
+.grace-card .card-text {
+  margin: 0;
+  font-size: 16px;
+}
+
 a {
   color: #c19d53;
   text-decoration: none;
